@@ -1,0 +1,20 @@
+INDEX VERSION 1.129+C:\Users\buidu\Documents\ScalaCoursera\.metadata\.plugins\org.eclipse.jdt.core
+2485878017.index
+523501113.index
+362767326.index
+2711173824.index
+2113227348.index
+4088014553.index
+2892174283.index
+2726254412.index
+3853425081.index
+1862292895.index
+214171102.index
+1505071098.index
+4114127972.index
+3271193799.index
+219664465.index
+1475993420.index
+3298958425.index
+3738175163.index
+3422777957.index

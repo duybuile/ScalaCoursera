@@ -1,0 +1,8 @@
+runMain reductions.ParallelCountChangeRunner
+runMain reductions.ParallelParenthesesBalancingRunner
+exit
+runMain reductions.ParallelParenthesesBalancingRunner
+runMain reductions.LineOfSightRunner
+submit donalduck0304@yahoo.com bUO6hScdtIk00VGc
+submit donalduck0304@yahoo.com kb1VFZrdZecfTbUI
+exit

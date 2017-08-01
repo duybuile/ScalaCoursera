@@ -1,0 +1,114 @@
+2017-08-01 14:54:23,635 ERROR [ModalContext] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.launching.JREContainerInitializer
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2017-08-01 14:54:24,761  WARN [ModalContext] - ScalaProject - Project progfun has platform default sourceLevel.
+2017-08-01 14:54:24,761  WARN [ModalContext] - ScalaProject - Project progfun runs on platform default installation.
+2017-08-01 14:54:25,309  WARN [ModalContext] - ScalaProject - Project progfun has platform default sourceLevel.
+2017-08-01 14:54:25,310  WARN [ModalContext] - ScalaProject - Project progfun runs on platform default installation.
+2017-08-01 14:54:29,299  WARN [Worker-8] - ScalaProject - Project progfun has platform default sourceLevel.
+2017-08-01 14:54:29,300  WARN [Worker-8] - ScalaProject - Project progfun runs on platform default installation.
+2017-08-01 14:54:30,814  WARN [Worker-0] - ScalaProject - Project progfun has platform default sourceLevel.
+2017-08-01 14:54:30,816  WARN [Worker-0] - ScalaProject - Project progfun runs on platform default installation.
+2017-08-01 14:54:49,977  WARN [Worker-0] - ScalaProject - Project progfun has platform default sourceLevel.
+2017-08-01 14:54:49,978  WARN [Worker-0] - ScalaProject - Project progfun runs on platform default installation.
+2017-08-01 14:54:57,598 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.actions.ToggleBreakpointAdapter
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2017-08-01 14:54:57,700 ERROR [main] - System.err - [org.eclipse.jdt.debug] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.debug.core.IJavaHotCodeReplaceListener
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2017-08-01 14:54:58,236 ERROR [main] - System.err - [org.eclipse.jdt.junit] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.junit.ui.JUnitQuickFixProcessor
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2017-08-01 14:58:11,856  WARN [ModalContext] - ScalaProject - Project scalashop has platform default sourceLevel.
+2017-08-01 14:58:11,856  WARN [ModalContext] - ScalaProject - Project scalashop runs on platform default installation.
+2017-08-01 14:58:13,455  WARN [ModalContext] - ScalaProject - Project scalashop has platform default sourceLevel.
+2017-08-01 14:58:13,456  WARN [ModalContext] - ScalaProject - Project scalashop runs on platform default installation.
+2017-08-01 14:58:13,776  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for scalashop, setting default to 2.11.
+2017-08-01 14:58:13,778  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for scalashop, setting default to 2.11.
+2017-08-01 14:59:51,320  WARN [ModalContext] - ScalaProject - Project example has platform default sourceLevel.
+2017-08-01 14:59:51,320  WARN [ModalContext] - ScalaProject - Project example runs on platform default installation.
+2017-08-01 14:59:51,321  WARN [ModalContext] - ScalaProject - Project example has platform default sourceLevel.
+2017-08-01 14:59:51,321  WARN [ModalContext] - ScalaProject - Project example runs on platform default installation.
+2017-08-01 14:59:51,878  WARN [ModalContext] - ScalaProject - Project example has platform default sourceLevel.
+2017-08-01 14:59:51,879  WARN [ModalContext] - ScalaProject - Project example runs on platform default installation.
+2017-08-01 15:02:36,087  WARN [ModalContext] - ScalaProject - Project barneshut has platform default sourceLevel.
+2017-08-01 15:02:36,087  WARN [ModalContext] - ScalaProject - Project barneshut runs on platform default installation.
+2017-08-01 15:02:36,319  WARN [ModalContext] - ScalaProject - Project barneshut has platform default sourceLevel.
+2017-08-01 15:02:36,319  WARN [ModalContext] - ScalaProject - Project barneshut runs on platform default installation.
+2017-08-01 15:02:51,234  WARN [ModalContext] - ScalaProject - Project calculator has platform default sourceLevel.
+2017-08-01 15:02:51,234  WARN [ModalContext] - ScalaProject - Project calculator runs on platform default installation.
+2017-08-01 15:02:51,451  WARN [ModalContext] - ScalaProject - Project calculator has platform default sourceLevel.
+2017-08-01 15:02:51,451  WARN [ModalContext] - ScalaProject - Project calculator runs on platform default installation.
+2017-08-01 15:03:07,513  WARN [ModalContext] - ScalaProject - Project forcomp has platform default sourceLevel.
+2017-08-01 15:03:07,513  WARN [ModalContext] - ScalaProject - Project forcomp runs on platform default installation.
+2017-08-01 15:03:07,643  WARN [ModalContext] - ScalaProject - Project forcomp has platform default sourceLevel.
+2017-08-01 15:03:07,643  WARN [ModalContext] - ScalaProject - Project forcomp runs on platform default installation.
+2017-08-01 15:03:41,376  WARN [ModalContext] - ScalaProject - Project kmeans has platform default sourceLevel.
+2017-08-01 15:03:41,376  WARN [ModalContext] - ScalaProject - Project kmeans runs on platform default installation.
+2017-08-01 15:03:41,594  WARN [ModalContext] - ScalaProject - Project kmeans has platform default sourceLevel.
+2017-08-01 15:03:41,594  WARN [ModalContext] - ScalaProject - Project kmeans runs on platform default installation.
+2017-08-01 15:04:40,360  WARN [ModalContext] - ScalaProject - Project parallel has platform default sourceLevel.
+2017-08-01 15:04:40,360  WARN [ModalContext] - ScalaProject - Project parallel runs on platform default installation.
+2017-08-01 15:04:40,425  WARN [ModalContext] - ScalaProject - Project parallel has platform default sourceLevel.
+2017-08-01 15:04:40,425  WARN [ModalContext] - ScalaProject - Project parallel runs on platform default installation.
+2017-08-01 15:04:40,816  WARN [Worker-18] - ScalaProject - Project parallel has platform default sourceLevel.
+2017-08-01 15:04:40,816  WARN [Worker-18] - ScalaProject - Project parallel runs on platform default installation.
+2017-08-01 15:04:42,012  WARN [Worker-20] - ScalaProject - Project parallel has platform default sourceLevel.
+2017-08-01 15:04:42,012  WARN [Worker-20] - ScalaProject - Project parallel runs on platform default installation.
+2017-08-01 15:04:56,205  WARN [ModalContext] - ScalaProject - Project patmat has platform default sourceLevel.
+2017-08-01 15:04:56,205  WARN [ModalContext] - ScalaProject - Project patmat runs on platform default installation.
+2017-08-01 15:04:56,302  WARN [ModalContext] - ScalaProject - Project patmat has platform default sourceLevel.
+2017-08-01 15:04:56,303  WARN [ModalContext] - ScalaProject - Project patmat runs on platform default installation.
+2017-08-01 15:05:09,264  WARN [ModalContext] - ScalaProject - Project quickcheck has platform default sourceLevel.
+2017-08-01 15:05:09,265  WARN [ModalContext] - ScalaProject - Project quickcheck runs on platform default installation.
+2017-08-01 15:05:09,387  WARN [ModalContext] - ScalaProject - Project quickcheck has platform default sourceLevel.
+2017-08-01 15:05:09,387  WARN [ModalContext] - ScalaProject - Project quickcheck runs on platform default installation.
+2017-08-01 15:05:23,059  WARN [ModalContext] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2017-08-01 15:05:23,060  WARN [ModalContext] - ScalaProject - Project reactive2 runs on platform default installation.
+2017-08-01 15:05:23,115  WARN [ModalContext] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2017-08-01 15:05:23,115  WARN [ModalContext] - ScalaProject - Project reactive2 runs on platform default installation.
+2017-08-01 15:05:23,659  WARN [Worker-2] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2017-08-01 15:05:23,660  WARN [Worker-2] - ScalaProject - Project reactive2 runs on platform default installation.
+2017-08-01 15:05:24,648  WARN [Java indexing] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2017-08-01 15:05:24,648  WARN [Java indexing] - ScalaProject - Project reactive2 runs on platform default installation.
+2017-08-01 15:05:25,701  WARN [Worker-8] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2017-08-01 15:05:25,701  WARN [Worker-8] - ScalaProject - Project reactive2 runs on platform default installation.
+2017-08-01 15:05:44,792  WARN [ModalContext] - ScalaProject - Project recfun has platform default sourceLevel.
+2017-08-01 15:05:44,792  WARN [ModalContext] - ScalaProject - Project recfun runs on platform default installation.
+2017-08-01 15:05:44,883  WARN [ModalContext] - ScalaProject - Project recfun has platform default sourceLevel.
+2017-08-01 15:05:44,884  WARN [ModalContext] - ScalaProject - Project recfun runs on platform default installation.
+2017-08-01 15:05:59,012  WARN [ModalContext] - ScalaProject - Project reductions has platform default sourceLevel.
+2017-08-01 15:05:59,013  WARN [ModalContext] - ScalaProject - Project reductions runs on platform default installation.
+2017-08-01 15:05:59,247  WARN [ModalContext] - ScalaProject - Project reductions has platform default sourceLevel.
+2017-08-01 15:05:59,248  WARN [ModalContext] - ScalaProject - Project reductions runs on platform default installation.
+2017-08-01 15:06:11,797  WARN [ModalContext] - ScalaProject - Project streams has platform default sourceLevel.
+2017-08-01 15:06:11,797  WARN [ModalContext] - ScalaProject - Project streams runs on platform default installation.
+2017-08-01 15:06:11,916  WARN [ModalContext] - ScalaProject - Project streams has platform default sourceLevel.
+2017-08-01 15:06:11,917  WARN [ModalContext] - ScalaProject - Project streams runs on platform default installation.
+2017-08-01 15:06:27,683  WARN [ModalContext] - ScalaProject - Project test has platform default sourceLevel.
+2017-08-01 15:06:27,684  WARN [ModalContext] - ScalaProject - Project test runs on platform default installation.
+2017-08-01 15:06:27,735  WARN [ModalContext] - ScalaProject - Project test has platform default sourceLevel.
+2017-08-01 15:06:27,735  WARN [ModalContext] - ScalaProject - Project test runs on platform default installation.
+2017-08-01 15:06:28,255  WARN [Worker-17] - ScalaProject - Project test has platform default sourceLevel.
+2017-08-01 15:06:28,255  WARN [Worker-17] - ScalaProject - Project test runs on platform default installation.
+2017-08-01 15:06:29,283  WARN [Java indexing] - ScalaProject - Project test has platform default sourceLevel.
+2017-08-01 15:06:29,284  WARN [Java indexing] - ScalaProject - Project test runs on platform default installation.
+2017-08-01 15:06:30,100  WARN [Worker-4] - ScalaProject - Project test has platform default sourceLevel.
+2017-08-01 15:06:30,100  WARN [Worker-4] - ScalaProject - Project test runs on platform default installation.
+2017-08-01 15:07:28,270  WARN [Worker-22] - ScalaProject - Project test has platform default sourceLevel.
+2017-08-01 15:07:28,271  WARN [Worker-22] - ScalaProject - Project test runs on platform default installation.
+2017-08-01 15:07:30,014  WARN [Worker-16] - ScalaProject - Project test has platform default sourceLevel.
+2017-08-01 15:07:30,014  WARN [Worker-16] - ScalaProject - Project test runs on platform default installation.
+2017-08-01 15:07:53,788  WARN [Worker-0] - ScalaProject - Project test has platform default sourceLevel.
+2017-08-01 15:07:53,788  WARN [Worker-0] - ScalaProject - Project test runs on platform default installation.
+2017-08-01 15:07:55,266  WARN [Worker-24] - ScalaProject - Project test has platform default sourceLevel.
+2017-08-01 15:07:55,267  WARN [Worker-24] - ScalaProject - Project test runs on platform default installation.
