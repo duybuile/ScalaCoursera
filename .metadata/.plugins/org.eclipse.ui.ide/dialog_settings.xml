@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\buidu\Documents\ScalaCoursera\example"/>
+			<item value="C:\Users\buidu\Documents\ScalaCoursera\test"/>
+			<item value="C:\Users\buidu\Documents\ScalaCoursera\streams"/>
+			<item value="C:\Users\buidu\Documents\ScalaCoursera\reductions"/>
+			<item value="C:\Users\buidu\Documents\ScalaCoursera\recfun"/>
+			<item value="C:\Users\buidu\Documents\ScalaCoursera\reactive2"/>
+			<item value="C:\Users\buidu\Documents\ScalaCoursera\quickcheck"/>
+			<item value="C:\Users\buidu\Documents\ScalaCoursera\patmat"/>
+			<item value="C:\Users\buidu\Documents\ScalaCoursera\parallel"/>
+			<item value="C:\Users\buidu\Documents\ScalaCoursera\kmeans"/>
+			<item value="C:\Users\buidu\Documents\ScalaCoursera\forcomp"/>
+			<item value="C:\Users\buidu\Documents\ScalaCoursera\calculator"/>
+			<item value="C:\Users\buidu\Documents\ScalaCoursera\barneshut"/>
+			<item value="C:\Users\buidu\Documents\ScalaCoursera\scalashop"/>
+			<item value="C:\Users\buidu\Documents\ScalaCoursera\progfun"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>

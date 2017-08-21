@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/C:/Users/buidu/Documents/Scala%20Script/scalashop/project/}scalashop-build...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/C:/Users/buidu/Documents/ScalaCoursera/scalashop/project/}scalashop-build...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: default#scalashop-build;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -3447,19 +3447,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.9!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.5!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2430ms :: artifacts dl 270ms[0m
-[0m[[0mdebug[0m] [0m	report for default#scalashop-build;0.1-SNAPSHOT compile produced in C:\Users\buidu\Documents\Scala Script\scalashop\project\target\resolution-cache\reports\default-scalashop-build-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#scalashop-build;0.1-SNAPSHOT runtime produced in C:\Users\buidu\Documents\Scala Script\scalashop\project\target\resolution-cache\reports\default-scalashop-build-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#scalashop-build;0.1-SNAPSHOT test produced in C:\Users\buidu\Documents\Scala Script\scalashop\project\target\resolution-cache\reports\default-scalashop-build-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#scalashop-build;0.1-SNAPSHOT provided produced in C:\Users\buidu\Documents\Scala Script\scalashop\project\target\resolution-cache\reports\default-scalashop-build-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#scalashop-build;0.1-SNAPSHOT optional produced in C:\Users\buidu\Documents\Scala Script\scalashop\project\target\resolution-cache\reports\default-scalashop-build-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#scalashop-build;0.1-SNAPSHOT compile-internal produced in C:\Users\buidu\Documents\Scala Script\scalashop\project\target\resolution-cache\reports\default-scalashop-build-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#scalashop-build;0.1-SNAPSHOT runtime-internal produced in C:\Users\buidu\Documents\Scala Script\scalashop\project\target\resolution-cache\reports\default-scalashop-build-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#scalashop-build;0.1-SNAPSHOT test-internal produced in C:\Users\buidu\Documents\Scala Script\scalashop\project\target\resolution-cache\reports\default-scalashop-build-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#scalashop-build;0.1-SNAPSHOT plugin produced in C:\Users\buidu\Documents\Scala Script\scalashop\project\target\resolution-cache\reports\default-scalashop-build-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#scalashop-build;0.1-SNAPSHOT sources produced in C:\Users\buidu\Documents\Scala Script\scalashop\project\target\resolution-cache\reports\default-scalashop-build-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#scalashop-build;0.1-SNAPSHOT docs produced in C:\Users\buidu\Documents\Scala Script\scalashop\project\target\resolution-cache\reports\default-scalashop-build-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#scalashop-build;0.1-SNAPSHOT pom produced in C:\Users\buidu\Documents\Scala Script\scalashop\project\target\resolution-cache\reports\default-scalashop-build-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#scalashop-build;0.1-SNAPSHOT scala-tool produced in C:\Users\buidu\Documents\Scala Script\scalashop\project\target\resolution-cache\reports\default-scalashop-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (2430ms resolve - 270ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 3146ms :: artifacts dl 346ms[0m
+[0m[[0mdebug[0m] [0m	report for default#scalashop-build;0.1-SNAPSHOT compile produced in C:\Users\buidu\Documents\ScalaCoursera\scalashop\project\target\resolution-cache\reports\default-scalashop-build-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalashop-build;0.1-SNAPSHOT runtime produced in C:\Users\buidu\Documents\ScalaCoursera\scalashop\project\target\resolution-cache\reports\default-scalashop-build-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalashop-build;0.1-SNAPSHOT test produced in C:\Users\buidu\Documents\ScalaCoursera\scalashop\project\target\resolution-cache\reports\default-scalashop-build-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalashop-build;0.1-SNAPSHOT provided produced in C:\Users\buidu\Documents\ScalaCoursera\scalashop\project\target\resolution-cache\reports\default-scalashop-build-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalashop-build;0.1-SNAPSHOT optional produced in C:\Users\buidu\Documents\ScalaCoursera\scalashop\project\target\resolution-cache\reports\default-scalashop-build-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalashop-build;0.1-SNAPSHOT compile-internal produced in C:\Users\buidu\Documents\ScalaCoursera\scalashop\project\target\resolution-cache\reports\default-scalashop-build-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalashop-build;0.1-SNAPSHOT runtime-internal produced in C:\Users\buidu\Documents\ScalaCoursera\scalashop\project\target\resolution-cache\reports\default-scalashop-build-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalashop-build;0.1-SNAPSHOT test-internal produced in C:\Users\buidu\Documents\ScalaCoursera\scalashop\project\target\resolution-cache\reports\default-scalashop-build-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalashop-build;0.1-SNAPSHOT plugin produced in C:\Users\buidu\Documents\ScalaCoursera\scalashop\project\target\resolution-cache\reports\default-scalashop-build-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalashop-build;0.1-SNAPSHOT sources produced in C:\Users\buidu\Documents\ScalaCoursera\scalashop\project\target\resolution-cache\reports\default-scalashop-build-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalashop-build;0.1-SNAPSHOT docs produced in C:\Users\buidu\Documents\ScalaCoursera\scalashop\project\target\resolution-cache\reports\default-scalashop-build-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalashop-build;0.1-SNAPSHOT pom produced in C:\Users\buidu\Documents\ScalaCoursera\scalashop\project\target\resolution-cache\reports\default-scalashop-build-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalashop-build;0.1-SNAPSHOT scala-tool produced in C:\Users\buidu\Documents\ScalaCoursera\scalashop\project\target\resolution-cache\reports\default-scalashop-build-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (3146ms resolve - 346ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

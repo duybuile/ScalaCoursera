@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/C:/Users/buidu/Documents/Scala%20Script/barneshut/}root...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/C:/Users/buidu/Documents/ScalaCoursera/barneshut/}root...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.7 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c1077df[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@66f53e2f[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.7 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.7] org.scala-lang#scala-library;2.11.7[0m
@@ -65,22 +65,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.storm-enroute#scalameter-core_2.11;0.6 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7fae022e[0m
-[0m[[0minfo[0m] [0mResolving com.storm-enroute#scalameter-core_2.11;0.6 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@7fae022e[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\buidu\.ivy2\local\com.storm-enroute\scalameter-core_2.11\0.6\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for com.storm-enroute#scalameter-core_2.11;0.6[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/storm-enroute/scalameter-core_2.11/0.6/scalameter-core_2.11-0.6.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for com.storm-enroute#scalameter-core_2.11;0.6[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/com/storm-enroute/scalameter-core_2.11/0.6/scalameter-core_2.11-0.6.pom (0.6)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/com/storm-enroute/scalameter-core_2.11/0.6/scalameter-core_2.11-0.6.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/storm-enroute/scalameter-core_2.11/0.6/scalameter-core_2.11-0.6.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/storm-enroute/scalameter-core_2.11/0.6/scalameter-core_2.11-0.6.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/storm-enroute/scalameter-core_2.11/0.6/scalameter-core_2.11-0.6.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.storm-enroute#scalameter-core_2.11;0.6!scalameter-core_2.11.pom(pom.original) (271ms)[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\buidu\.ivy2\local\com.storm-enroute\scalameter-core_2.11\0.6\jars\scalameter-core_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/storm-enroute/scalameter-core_2.11/0.6/scalameter-core_2.11-0.6.jar[0m
-[0m[[0mdebug[0m] [0m	found com.storm-enroute#scalameter-core_2.11;0.6 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b9e6f74[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.storm-enroute#scalameter-core_2.11;0.6[0m
+[0m[[0mdebug[0m] [0m	found com.storm-enroute#scalameter-core_2.11;0.6 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.storm-enroute#scalameter-core_2.11;0.6->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
@@ -90,55 +77,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.storm-enroute#scalameter-core_2.11;0.6->org.apache.commons#commons-math3;3.2 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.commons#commons-math3;3.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-math3;3.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-math3;3.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.commons#commons-math3;3.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\buidu\.ivy2\local\org.apache.commons\commons-math3\3.2\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.commons#commons-math3;3.2[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.apache.commons#commons-math3;3.2[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.pom (3.2)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.commons#commons-math3;3.2!commons-math3.pom(pom.original) (322ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-parent;28 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;28 {}[0m
-[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-parent;28 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.commons#commons-parent;28 {}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\buidu\.ivy2\local\org.apache.commons\commons-parent\28\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.commons#commons-parent;28[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.apache.commons#commons-parent;28[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom (28)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.commons#commons-parent;28!commons-parent.pom(pom.original) (343ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache#apache;13 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache#apache;13 {}[0m
-[0m[[0minfo[0m] [0mResolving org.apache#apache;13 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache#apache;13 {}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\buidu\.ivy2\local\org.apache\apache\13\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache#apache;13[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.apache#apache;13[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom (13)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache#apache;13!apache.pom(pom.original) (254ms)[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\buidu\.ivy2\local\org.apache\apache\13\jars\apache.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.jar[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\buidu\.ivy2\local\org.apache.commons\commons-parent\28\jars\commons-parent.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.jar[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\buidu\.ivy2\local\org.apache.commons\commons-math3\3.2\jars\commons-math3.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar[0m
-[0m[[0mdebug[0m] [0m	found org.apache.commons#commons-math3;3.2 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.commons#commons-math3;3.2[0m
+[0m[[0mdebug[0m] [0m	found org.apache.commons#commons-math3;3.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.storm-enroute#scalameter-core_2.11;0.6->org.apache.commons#commons-math3;3.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.storm-enroute#scalameter-core_2.11;0.6->org.apache.commons#commons-math3;3.2 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.storm-enroute#scalameter-core_2.11;0.6->org.apache.commons#commons-math3;3.2 [compile->compile][0m
@@ -153,21 +93,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.storm-enroute#scalameter-core_2.11;0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\buidu\.ivy2\local\org.scala-lang.modules\scala-parser-combinators_2.11\1.0.1\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.pom (1.0.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1!scala-parser-combinators_2.11.pom(pom.original) (275ms)[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\buidu\.ivy2\local\org.scala-lang.modules\scala-parser-combinators_2.11\1.0.1\bundles\scala-parser-combinators_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.storm-enroute#scalameter-core_2.11;0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
@@ -193,22 +120,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.github.scala-blitz#scala-blitz_2.11;1.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@707f7265[0m
-[0m[[0minfo[0m] [0mResolving com.github.scala-blitz#scala-blitz_2.11;1.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@707f7265[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\buidu\.ivy2\local\com.github.scala-blitz\scala-blitz_2.11\1.1\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for com.github.scala-blitz#scala-blitz_2.11;1.1[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/github/scala-blitz/scala-blitz_2.11/1.1/scala-blitz_2.11-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for com.github.scala-blitz#scala-blitz_2.11;1.1[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/com/github/scala-blitz/scala-blitz_2.11/1.1/scala-blitz_2.11-1.1.pom (1.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/com/github/scala-blitz/scala-blitz_2.11/1.1/scala-blitz_2.11-1.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/github/scala-blitz/scala-blitz_2.11/1.1/scala-blitz_2.11-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/github/scala-blitz/scala-blitz_2.11/1.1/scala-blitz_2.11-1.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/github/scala-blitz/scala-blitz_2.11/1.1/scala-blitz_2.11-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.scala-blitz#scala-blitz_2.11;1.1!scala-blitz_2.11.pom(pom.original) (319ms)[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\buidu\.ivy2\local\com.github.scala-blitz\scala-blitz_2.11\1.1\jars\scala-blitz_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/github/scala-blitz/scala-blitz_2.11/1.1/scala-blitz_2.11-1.1.jar[0m
-[0m[[0mdebug[0m] [0m	found com.github.scala-blitz#scala-blitz_2.11;1.1 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d6c398[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.github.scala-blitz#scala-blitz_2.11;1.1[0m
+[0m[[0mdebug[0m] [0m	found com.github.scala-blitz#scala-blitz_2.11;1.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.scala-blitz#scala-blitz_2.11;1.1->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
@@ -228,22 +142,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-swing_2.11;1.0.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c72ebb4[0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-swing_2.11;1.0.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@3c72ebb4[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\buidu\.ivy2\local\org.scala-lang.modules\scala-swing_2.11\1.0.1\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang.modules#scala-swing_2.11;1.0.1[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang.modules#scala-swing_2.11;1.0.1[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.pom (1.0.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-swing_2.11;1.0.1!scala-swing_2.11.pom(pom.original) (282ms)[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\buidu\.ivy2\local\org.scala-lang.modules\scala-swing_2.11\1.0.1\bundles\scala-swing_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-swing_2.11;1.0.1 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4568eb52[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-swing_2.11;1.0.1[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-swing_2.11;1.0.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
@@ -489,22 +390,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter_2.11;0.6 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.storm-enroute#scalameter_2.11;0.6 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@255be744[0m
-[0m[[0minfo[0m] [0mResolving com.storm-enroute#scalameter_2.11;0.6 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@255be744[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\buidu\.ivy2\local\com.storm-enroute\scalameter_2.11\0.6\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for com.storm-enroute#scalameter_2.11;0.6[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/storm-enroute/scalameter_2.11/0.6/scalameter_2.11-0.6.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for com.storm-enroute#scalameter_2.11;0.6[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/com/storm-enroute/scalameter_2.11/0.6/scalameter_2.11-0.6.pom (0.6)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/com/storm-enroute/scalameter_2.11/0.6/scalameter_2.11-0.6.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/storm-enroute/scalameter_2.11/0.6/scalameter_2.11-0.6.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/storm-enroute/scalameter_2.11/0.6/scalameter_2.11-0.6.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/storm-enroute/scalameter_2.11/0.6/scalameter_2.11-0.6.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.storm-enroute#scalameter_2.11;0.6!scalameter_2.11.pom(pom.original) (212ms)[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\buidu\.ivy2\local\com.storm-enroute\scalameter_2.11\0.6\jars\scalameter_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/storm-enroute/scalameter_2.11/0.6/scalameter_2.11-0.6.jar[0m
-[0m[[0mdebug[0m] [0m	found com.storm-enroute#scalameter_2.11;0.6 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7b4cbdf8[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.storm-enroute#scalameter_2.11;0.6[0m
+[0m[[0mdebug[0m] [0m	found com.storm-enroute#scalameter_2.11;0.6 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter_2.11;0.6 [test->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter_2.11;0.6 [test->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.storm-enroute#scalameter_2.11;0.6->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
@@ -518,21 +406,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.storm-enroute#scalameter_2.11;0.6->com.github.wookietreiber#scala-chart_2.11;0.4.2 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.github.wookietreiber#scala-chart_2.11;0.4.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.wookietreiber#scala-chart_2.11;0.4.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving com.github.wookietreiber#scala-chart_2.11;0.4.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.github.wookietreiber#scala-chart_2.11;0.4.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\buidu\.ivy2\local\com.github.wookietreiber\scala-chart_2.11\0.4.2\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for com.github.wookietreiber#scala-chart_2.11;0.4.2[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/github/wookietreiber/scala-chart_2.11/0.4.2/scala-chart_2.11-0.4.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for com.github.wookietreiber#scala-chart_2.11;0.4.2[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/com/github/wookietreiber/scala-chart_2.11/0.4.2/scala-chart_2.11-0.4.2.pom (0.4.2)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/com/github/wookietreiber/scala-chart_2.11/0.4.2/scala-chart_2.11-0.4.2.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/github/wookietreiber/scala-chart_2.11/0.4.2/scala-chart_2.11-0.4.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/github/wookietreiber/scala-chart_2.11/0.4.2/scala-chart_2.11-0.4.2.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/github/wookietreiber/scala-chart_2.11/0.4.2/scala-chart_2.11-0.4.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.wookietreiber#scala-chart_2.11;0.4.2!scala-chart_2.11.pom(pom.original) (243ms)[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\buidu\.ivy2\local\com.github.wookietreiber\scala-chart_2.11\0.4.2\jars\scala-chart_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/github/wookietreiber/scala-chart_2.11/0.4.2/scala-chart_2.11-0.4.2.jar[0m
-[0m[[0mdebug[0m] [0m	found com.github.wookietreiber#scala-chart_2.11;0.4.2 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.github.wookietreiber#scala-chart_2.11;0.4.2[0m
+[0m[[0mdebug[0m] [0m	found com.github.wookietreiber#scala-chart_2.11;0.4.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[0.4.2] com.github.wookietreiber#scala-chart_2.11;0.4.2[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.storm-enroute#scalameter_2.11;0.6->com.github.wookietreiber#scala-chart_2.11;0.4.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.wookietreiber#scala-chart_2.11;0.4.2->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
@@ -541,82 +416,20 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.wookietreiber#scala-chart_2.11;0.4.2->org.jfree#jfreechart;1.0.17 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.jfree#jfreechart;1.0.17 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.jfree#jfreechart;1.0.17 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.jfree#jfreechart;1.0.17 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.jfree#jfreechart;1.0.17 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\buidu\.ivy2\local\org.jfree\jfreechart\1.0.17\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.jfree#jfreechart;1.0.17[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/jfree/jfreechart/1.0.17/jfreechart-1.0.17.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.jfree#jfreechart;1.0.17[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/jfree/jfreechart/1.0.17/jfreechart-1.0.17.pom (1.0.17)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/jfree/jfreechart/1.0.17/jfreechart-1.0.17.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/jfree/jfreechart/1.0.17/jfreechart-1.0.17.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/jfree/jfreechart/1.0.17/jfreechart-1.0.17.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/jfree/jfreechart/1.0.17/jfreechart-1.0.17.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.jfree#jfreechart;1.0.17!jfreechart.pom(pom.original) (385ms)[0m
-[0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;7 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\buidu\.ivy2\local\org.jfree\jfreechart\1.0.17\jars\jfreechart.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/jfree/jfreechart/1.0.17/jfreechart-1.0.17.jar[0m
-[0m[[0mdebug[0m] [0m	found org.jfree#jfreechart;1.0.17 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.jfree#jfreechart;1.0.17[0m
+[0m[[0mdebug[0m] [0m	found org.jfree#jfreechart;1.0.17 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.wookietreiber#scala-chart_2.11;0.4.2->org.jfree#jfreechart;1.0.17 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.jfree#jfreechart;1.0.17->org.jfree#jcommon;1.0.21 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.jfree#jcommon;1.0.21 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.jfree#jcommon;1.0.21 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.jfree#jcommon;1.0.21 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.jfree#jcommon;1.0.21 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\buidu\.ivy2\local\org.jfree\jcommon\1.0.21\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.jfree#jcommon;1.0.21[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/jfree/jcommon/1.0.21/jcommon-1.0.21.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.jfree#jcommon;1.0.21[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/jfree/jcommon/1.0.21/jcommon-1.0.21.pom (1.0.21)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/jfree/jcommon/1.0.21/jcommon-1.0.21.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/jfree/jcommon/1.0.21/jcommon-1.0.21.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/jfree/jcommon/1.0.21/jcommon-1.0.21.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/jfree/jcommon/1.0.21/jcommon-1.0.21.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.jfree#jcommon;1.0.21!jcommon.pom(pom.original) (366ms)[0m
-[0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;7 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\buidu\.ivy2\local\org.jfree\jcommon\1.0.21\jars\jcommon.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/jfree/jcommon/1.0.21/jcommon-1.0.21.jar[0m
-[0m[[0mdebug[0m] [0m	found org.jfree#jcommon;1.0.21 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.jfree#jcommon;1.0.21[0m
+[0m[[0mdebug[0m] [0m	found org.jfree#jcommon;1.0.21 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.jfree#jfreechart;1.0.17->org.jfree#jcommon;1.0.21 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.jfree#jfreechart;1.0.17->xml-apis#xml-apis;1.3.04 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving xml-apis#xml-apis;1.3.04 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: xml-apis#xml-apis;1.3.04 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving xml-apis#xml-apis;1.3.04 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: xml-apis#xml-apis;1.3.04 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\buidu\.ivy2\local\xml-apis\xml-apis\1.3.04\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for xml-apis#xml-apis;1.3.04[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for xml-apis#xml-apis;1.3.04[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.pom (1.3.04)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] xml-apis#xml-apis;1.3.04!xml-apis.pom(pom.original) (283ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache#apache;3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache#apache;3 {}[0m
-[0m[[0minfo[0m] [0mResolving org.apache#apache;3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache#apache;3 {}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\buidu\.ivy2\local\org.apache\apache\3\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache#apache;3[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/apache/3/apache-3.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.apache#apache;3[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/apache/apache/3/apache-3.pom (3)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/apache/3/apache-3.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/apache/3/apache-3.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/apache/3/apache-3.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/apache/3/apache-3.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache#apache;3!apache.pom(pom.original) (241ms)[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\buidu\.ivy2\local\org.apache\apache\3\jars\apache.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/apache/3/apache-3.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/apache/3/apache-3.jar[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\buidu\.ivy2\local\xml-apis\xml-apis\1.3.04\jars\xml-apis.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar[0m
-[0m[[0mdebug[0m] [0m	found xml-apis#xml-apis;1.3.04 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: xml-apis#xml-apis;1.3.04[0m
+[0m[[0mdebug[0m] [0m	found xml-apis#xml-apis;1.3.04 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.jfree#jfreechart;1.0.17->xml-apis#xml-apis;1.3.04 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.wookietreiber#scala-chart_2.11;0.4.2->org.scala-lang.modules#scala-swing_2.11;1.0.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.wookietreiber#scala-chart_2.11;0.4.2->org.scala-lang.modules#scala-swing_2.11;1.0.1 [compile->compile(*)][0m
@@ -638,21 +451,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.storm-enroute#scalameter_2.11;0.6->org.scala-tools.testing#test-interface;0.5 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-tools.testing#test-interface;0.5 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-tools.testing#test-interface;0.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.scala-tools.testing#test-interface;0.5 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scala-tools.testing#test-interface;0.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\buidu\.ivy2\local\org.scala-tools.testing\test-interface\0.5\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-tools.testing#test-interface;0.5[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.scala-tools.testing#test-interface;0.5[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.pom (0.5)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-tools.testing#test-interface;0.5!test-interface.pom(pom.original) (343ms)[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\buidu\.ivy2\local\org.scala-tools.testing\test-interface\0.5\jars\test-interface.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.jar[0m
-[0m[[0mdebug[0m] [0m	found org.scala-tools.testing#test-interface;0.5 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-tools.testing#test-interface;0.5[0m
+[0m[[0mdebug[0m] [0m	found org.scala-tools.testing#test-interface;0.5 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.storm-enroute#scalameter_2.11;0.6->org.scala-tools.testing#test-interface;0.5 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.storm-enroute#scalameter_2.11;0.6->org.scala-tools.testing#test-interface;0.5 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.storm-enroute#scalameter_2.11;0.6->org.scala-tools.testing#test-interface;0.5 [compile->compile][0m
@@ -1186,94 +986,39 @@
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatest#scalatest_2.11;2.2.4!scalatest_2.11.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/storm-enroute/scalameter-core_2.11/0.6/scalameter-core_2.11-0.6.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/storm-enroute/scalameter-core_2.11/0.6/scalameter-core_2.11-0.6.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/storm-enroute/scalameter-core_2.11/0.6/scalameter-core_2.11-0.6.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/storm-enroute/scalameter-core_2.11/0.6/scalameter-core_2.11-0.6.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/storm-enroute/scalameter-core_2.11/0.6/scalameter-core_2.11-0.6.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.storm-enroute#scalameter-core_2.11;0.6!scalameter-core_2.11.jar (695ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/github/scala-blitz/scala-blitz_2.11/1.1/scala-blitz_2.11-1.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/github/scala-blitz/scala-blitz_2.11/1.1/scala-blitz_2.11-1.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/github/scala-blitz/scala-blitz_2.11/1.1/scala-blitz_2.11-1.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/github/scala-blitz/scala-blitz_2.11/1.1/scala-blitz_2.11-1.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/github/scala-blitz/scala-blitz_2.11/1.1/scala-blitz_2.11-1.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.github.scala-blitz#scala-blitz_2.11;1.1!scala-blitz_2.11.jar (8532ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-swing_2.11;1.0.1!scala-swing_2.11.jar(bundle) (1750ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.storm-enroute#scalameter-core_2.11;0.6!scalameter-core_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.scala-blitz#scala-blitz_2.11;1.1!scala-blitz_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-swing_2.11;1.0.1!scala-swing_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.2!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.commons#commons-math3;3.2!commons-math3.jar (3779ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1!scala-parser-combinators_2.11.jar(bundle) (3060ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.commons#commons-math3;3.2!commons-math3.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1!scala-parser-combinators_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] junit#junit;4.10!junit.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/storm-enroute/scalameter_2.11/0.6/scalameter_2.11-0.6.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/storm-enroute/scalameter_2.11/0.6/scalameter_2.11-0.6.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/storm-enroute/scalameter_2.11/0.6/scalameter_2.11-0.6.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/storm-enroute/scalameter_2.11/0.6/scalameter_2.11-0.6.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/storm-enroute/scalameter_2.11/0.6/scalameter_2.11-0.6.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.storm-enroute#scalameter_2.11;0.6!scalameter_2.11.jar (1976ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.storm-enroute#scalameter_2.11;0.6!scalameter_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/github/wookietreiber/scala-chart_2.11/0.4.2/scala-chart_2.11-0.4.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/github/wookietreiber/scala-chart_2.11/0.4.2/scala-chart_2.11-0.4.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/github/wookietreiber/scala-chart_2.11/0.4.2/scala-chart_2.11-0.4.2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/github/wookietreiber/scala-chart_2.11/0.4.2/scala-chart_2.11-0.4.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/github/wookietreiber/scala-chart_2.11/0.4.2/scala-chart_2.11-0.4.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.github.wookietreiber#scala-chart_2.11;0.4.2!scala-chart_2.11.jar (995ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-tools.testing#test-interface;0.5!test-interface.jar (216ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/jfree/jfreechart/1.0.17/jfreechart-1.0.17.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/jfree/jfreechart/1.0.17/jfreechart-1.0.17.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/jfree/jfreechart/1.0.17/jfreechart-1.0.17.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/jfree/jfreechart/1.0.17/jfreechart-1.0.17.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/jfree/jfreechart/1.0.17/jfreechart-1.0.17.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.jfree#jfreechart;1.0.17!jfreechart.jar (2964ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/jfree/jcommon/1.0.21/jcommon-1.0.21.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/jfree/jcommon/1.0.21/jcommon-1.0.21.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/jfree/jcommon/1.0.21/jcommon-1.0.21.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/jfree/jcommon/1.0.21/jcommon-1.0.21.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/jfree/jcommon/1.0.21/jcommon-1.0.21.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.jfree#jcommon;1.0.21!jcommon.jar (1611ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] xml-apis#xml-apis;1.3.04!xml-apis.jar (1168ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.wookietreiber#scala-chart_2.11;0.4.2!scala-chart_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-tools.testing#test-interface;0.5!test-interface.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.jfree#jfreechart;1.0.17!jfreechart.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.jfree#jcommon;1.0.21!jcommon.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] xml-apis#xml-apis;1.3.04!xml-apis.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 8467ms :: artifacts dl 26937ms[0m
-[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT compile produced in C:\Users\buidu\Documents\Scala Script\barneshut\target\resolution-cache\reports\parprog1-barneshut-parprog1-barneshut_2.11-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT runtime produced in C:\Users\buidu\Documents\Scala Script\barneshut\target\resolution-cache\reports\parprog1-barneshut-parprog1-barneshut_2.11-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT test produced in C:\Users\buidu\Documents\Scala Script\barneshut\target\resolution-cache\reports\parprog1-barneshut-parprog1-barneshut_2.11-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT provided produced in C:\Users\buidu\Documents\Scala Script\barneshut\target\resolution-cache\reports\parprog1-barneshut-parprog1-barneshut_2.11-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT optional produced in C:\Users\buidu\Documents\Scala Script\barneshut\target\resolution-cache\reports\parprog1-barneshut-parprog1-barneshut_2.11-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT compile-internal produced in C:\Users\buidu\Documents\Scala Script\barneshut\target\resolution-cache\reports\parprog1-barneshut-parprog1-barneshut_2.11-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT runtime-internal produced in C:\Users\buidu\Documents\Scala Script\barneshut\target\resolution-cache\reports\parprog1-barneshut-parprog1-barneshut_2.11-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT test-internal produced in C:\Users\buidu\Documents\Scala Script\barneshut\target\resolution-cache\reports\parprog1-barneshut-parprog1-barneshut_2.11-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT plugin produced in C:\Users\buidu\Documents\Scala Script\barneshut\target\resolution-cache\reports\parprog1-barneshut-parprog1-barneshut_2.11-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT sources produced in C:\Users\buidu\Documents\Scala Script\barneshut\target\resolution-cache\reports\parprog1-barneshut-parprog1-barneshut_2.11-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT docs produced in C:\Users\buidu\Documents\Scala Script\barneshut\target\resolution-cache\reports\parprog1-barneshut-parprog1-barneshut_2.11-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT pom produced in C:\Users\buidu\Documents\Scala Script\barneshut\target\resolution-cache\reports\parprog1-barneshut-parprog1-barneshut_2.11-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT scala-tool produced in C:\Users\buidu\Documents\Scala Script\barneshut\target\resolution-cache\reports\parprog1-barneshut-parprog1-barneshut_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (8467ms resolve - 26937ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 668ms :: artifacts dl 82ms[0m
+[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT compile produced in C:\Users\buidu\Documents\ScalaCoursera\barneshut\target\resolution-cache\reports\parprog1-barneshut-parprog1-barneshut_2.11-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT runtime produced in C:\Users\buidu\Documents\ScalaCoursera\barneshut\target\resolution-cache\reports\parprog1-barneshut-parprog1-barneshut_2.11-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT test produced in C:\Users\buidu\Documents\ScalaCoursera\barneshut\target\resolution-cache\reports\parprog1-barneshut-parprog1-barneshut_2.11-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT provided produced in C:\Users\buidu\Documents\ScalaCoursera\barneshut\target\resolution-cache\reports\parprog1-barneshut-parprog1-barneshut_2.11-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT optional produced in C:\Users\buidu\Documents\ScalaCoursera\barneshut\target\resolution-cache\reports\parprog1-barneshut-parprog1-barneshut_2.11-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT compile-internal produced in C:\Users\buidu\Documents\ScalaCoursera\barneshut\target\resolution-cache\reports\parprog1-barneshut-parprog1-barneshut_2.11-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT runtime-internal produced in C:\Users\buidu\Documents\ScalaCoursera\barneshut\target\resolution-cache\reports\parprog1-barneshut-parprog1-barneshut_2.11-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT test-internal produced in C:\Users\buidu\Documents\ScalaCoursera\barneshut\target\resolution-cache\reports\parprog1-barneshut-parprog1-barneshut_2.11-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT plugin produced in C:\Users\buidu\Documents\ScalaCoursera\barneshut\target\resolution-cache\reports\parprog1-barneshut-parprog1-barneshut_2.11-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT sources produced in C:\Users\buidu\Documents\ScalaCoursera\barneshut\target\resolution-cache\reports\parprog1-barneshut-parprog1-barneshut_2.11-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT docs produced in C:\Users\buidu\Documents\ScalaCoursera\barneshut\target\resolution-cache\reports\parprog1-barneshut-parprog1-barneshut_2.11-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT pom produced in C:\Users\buidu\Documents\ScalaCoursera\barneshut\target\resolution-cache\reports\parprog1-barneshut-parprog1-barneshut_2.11-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut_2.11;0.1-SNAPSHOT scala-tool produced in C:\Users\buidu\Documents\ScalaCoursera\barneshut\target\resolution-cache\reports\parprog1-barneshut-parprog1-barneshut_2.11-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (668ms resolve - 82ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

@@ -1,44 +1,74 @@
 package barneshut
 
-import java.awt._
-import java.awt.event._
-import javax.swing._
-import javax.swing.event._
-import scala.collection.parallel.TaskSupport
 import scala.collection.parallel.Combiner
+import scala.collection.parallel.TaskSupport
 import scala.collection.parallel.mutable.ParHashSet
-import common._
 
 class Simulator(val taskSupport: TaskSupport, val timeStats: TimeStatistics) {
 
+  /**
+   * Given an existing boundaries object and a body, the updateBoundaries updates the minX, minY, 
+   * maxX and maxY values so that the boundaries include the body
+   */
   def updateBoundaries(boundaries: Boundaries, body: Body): Boundaries = {
-    ???
+    boundaries.minX = math.min(boundaries.minX, body.x)
+    boundaries.maxX = math.max(boundaries.maxX, body.x)
+    boundaries.minY = math.min(boundaries.minY, body.y)
+    boundaries.maxY = math.max(boundaries.maxX, body.y)
+    boundaries
   }
 
+  /**
+   * the mergeBoundaries method creates a new Boundaries object, 
+   * which represents the smallest rectangle that contains both the input boundaries
+   */
   def mergeBoundaries(a: Boundaries, b: Boundaries): Boundaries = {
-    ???
+    a.maxX = math.max(a.maxX, b.maxX)
+    a.maxY = math.max(a.maxY, b.maxY)
+    a.minX = math.min(a.minX, b.minX)
+    a.minY = math.min(a.minY, b.minY)
+    a
   }
 
+  /**
+   * This method computes the boundaries of all the bodies in the scene. 
+   * Since bodies move and the boundaries dynamically change, we must do 
+   * this in every iteration of the algorithm
+   * 
+   * This uses the aggregate combinator on the sequence of bodies to compute the boundaries.
+   * The aggregate method divides the input sequence into a number of chunks. 
+   * For each of the chunks, it uses the new Boundaries expression to create the accumulation value, 
+   * and then folds the values in that chunk calling updateBoundaries on each body, 
+   * in the same way a foldLeft operation would. Finally, aggregate combines the results of 
+   * different chunks using a reduction tree and mergeBoundaries.
+   */
   def computeBoundaries(bodies: Seq[Body]): Boundaries = timeStats.timed("boundaries") {
     val parBodies = bodies.par
     parBodies.tasksupport = taskSupport
     parBodies.aggregate(new Boundaries)(updateBoundaries, mergeBoundaries)
   }
 
+  /**
+   * 
+   */
   def computeSectorMatrix(bodies: Seq[Body], boundaries: Boundaries): SectorMatrix = timeStats.timed("matrix") {
     val parBodies = bodies.par
     parBodies.tasksupport = taskSupport
-    ???
+    parBodies.aggregate(new SectorMatrix(boundaries, SECTOR_PRECISION))(_+=_, _ combine _)
   }
 
   def computeQuad(sectorMatrix: SectorMatrix): Quad = timeStats.timed("quad") {
     sectorMatrix.toQuad(taskSupport.parallelismLevel)
   }
 
+  /**
+   * The updateBodies method uses the quadtree to map each body from the previous iteration 
+   * of the algorithm to a new iteration
+   */
   def updateBodies(bodies: Seq[Body], quad: Quad): Seq[Body] = timeStats.timed("update") {
     val parBodies = bodies.par
     parBodies.tasksupport = taskSupport
-    ???
+    parBodies.map { _.updated(quad) }.seq
   }
 
   def eliminateOutliers(bodies: Seq[Body], sectorMatrix: SectorMatrix, quad: Quad): Seq[Body] = timeStats.timed("eliminate") {
