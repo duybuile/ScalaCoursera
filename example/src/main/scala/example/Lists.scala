@@ -43,7 +43,7 @@ object Lists {
    */
     def max(xs: List[Int]): Int = {
       if(xs.isEmpty) throw new NoSuchElementException("This is an empty list")
-      if(xs.length == 1) xs.head
+      else if(xs.length == 1) xs.head
       else {
         if (xs.head > max(xs.tail)) xs.head else max(xs.tail)
       }

@@ -1,5 +1,5 @@
 <projectDescription>
-  <name>parprog1-example</name>
+  <name>bigdata-example</name>
   <buildSpec>
     <buildCommand>
       <name>org.scala-ide.sdt.core.scalabuilder</name>

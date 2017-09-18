@@ -1,2 +1,2 @@
-course := "parprog1"
+course := "bigdata"
 assignment := "example"

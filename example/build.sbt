@@ -1,58 +1,60 @@
 name := course.value + "-" + assignment.value
 
-scalaVersion := "2.11.7"
+scalaVersion := "2.11.8"
 
 scalacOptions ++= Seq("-deprecation")
 
-courseId := "GVy8tIIKEeWXmQ4F86nmrw"
+courseId := "e8VseYIYEeWxQQoymFg8zQ"
+
+resolvers += Resolver.sonatypeRepo("releases")
 
 // grading libraries
 libraryDependencies += "junit" % "junit" % "4.10" % "test"
-libraryDependencies += "ch.epfl.lamp" % "scala-grading-runtime_2.11" % "0.3"
 libraryDependencies ++= assignmentsMap.value.values.flatMap(_.dependencies).toSeq
 
 // include the common dir
 commonSourcePackages += "common"
 
 assignmentsMap := {
-  val depsCollections = Seq(
-    "com.storm-enroute" %% "scalameter-core" % "0.6",
-    "com.github.scala-blitz" %% "scala-blitz" % "1.1",
-    "org.scala-lang.modules" %% "scala-swing" % "1.0.1",
-    "com.storm-enroute" %% "scalameter" % "0.6" % "test"
-  )
   val depsSpark = Seq(
-    "org.apache.spark" %% "spark-core" % "1.2.1"
+    "org.apache.spark" %% "spark-core" % "2.1.0"
   )
-  val styleSheetPath = (baseDirectory.value / ".." / ".." / "project" / "scalastyle_config.xml").getPath
   Map(
     "example" -> Assignment(
       packageName = "example",
-      key = "_Cuio9oTEeWUtQpvX4iAkw",
-      itemId = "gM5Y4",
-      partId = "WGx0f",
+      key = "9W3VuiJREeaFaw43_UrNUw",
+      itemId = "I6L8m",
+      partId = "vsJoj",
       maxScore = 10d,
-      dependencies = Seq()),
-    "scalashop" -> Assignment(
-      packageName = "scalashop",
-      key = "OpSNmtC1EeWvXAr2bF16EQ",
-      itemId = "NeGTv",
-      partId = "Q2e1P",
+      dependencies = Seq(),
+      options = Map("Xmx"->"1540m", "grader-memory"->"2048")),
+    "wikipedia" -> Assignment(
+      packageName = "wikipedia",
+      key = "EH8wby4kEeawURILfHIqjw",
+      itemId = "QcWcs",
+      partId = "5komc",
       maxScore = 10d,
-      dependencies = depsCollections),
-    "reductions" -> Assignment(
-      packageName = "reductions",
-      key = "lUUWddoGEeWPHw6r45-nxw",
-      itemId = "4rXwX",
-      partId = "gmSnR",
+      styleScoreRatio = 0.0,
+      dependencies = depsSpark,
+      options = Map("Xmx"->"1540m", "grader-memory"->"2048", "totalTimeout" -> "900", "grader-cpu" -> "2")),
+    "stackoverflow" -> Assignment(
+      packageName = "stackoverflow",
+      key = "7ByAoS4kEea1yxIfJA1CUw",
+      itemId = "FWGnz",
+      partId = "OY5fJ",
       maxScore = 10d,
-      dependencies = depsCollections),
-    "kmeans" -> Assignment(
-      packageName = "kmeans",
-      key = "UJmFEtoIEeWJwRKcpT8ChQ",
-      itemId = "akLxD",
-      partId = "mz8iL",
+      styleScoreRatio = 0.0,
+      dependencies = depsSpark,
+      options = Map("Xmx"->"1540m", "grader-memory"->"2048", "totalTimeout" -> "900", "grader-cpu" -> "2")),
+    "timeusage" -> Assignment(
+      packageName = "timeusage",
+      key = "mVk0fgQ0EeeGZQrYVAT1jg",
+      itemId = "T19Ec",
+      partId = "y8PO8",
       maxScore = 10d,
-      dependencies = depsCollections)
+      styleScoreRatio = 0.0,
+      dependencies = depsSpark :+ ("org.apache.spark" %% "spark-sql" % "2.1.0"),
+      options = Map("Xmx"->"1540m", "grader-memory"->"2048", "totalTimeout" -> "900", "grader-cpu" -> "2"))
   )
 }
+

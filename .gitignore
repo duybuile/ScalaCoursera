@@ -1,0 +1,3 @@
+# ignore a single file
+/wikipedia/src/main/resources/wikipedia/wikipedia.dat
+/stackoverflow/src/main/resources/stackoverflow/stackoverflow.csv

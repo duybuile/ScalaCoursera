@@ -6,6 +6,9 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
 			<item value="C:\Users\buidu\Documents\ScalaCoursera\example"/>
+			<item value="C:\Users\buidu\Documents\ScalaCoursera\timeusage"/>
+			<item value="C:\Users\buidu\Documents\ScalaCoursera\stackoverflow"/>
+			<item value="C:\Users\buidu\Documents\ScalaCoursera\wikipedia"/>
 			<item value="C:\Users\buidu\Documents\ScalaCoursera\test"/>
 			<item value="C:\Users\buidu\Documents\ScalaCoursera\streams"/>
 			<item value="C:\Users\buidu\Documents\ScalaCoursera\reductions"/>
