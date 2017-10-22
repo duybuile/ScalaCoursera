@@ -1131,3 +1131,58 @@ when weaving type org.eclipse.jdt.internal.junit.ui.JUnitQuickFixProcessor
 when weaving classes 
 when weaving 
  [Xlint:cantFindType]
+2017-10-22 17:02:26,083 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2017-10-22 17:02:42,113  WARN [main] - ScalaProject - Project parallel has platform default sourceLevel.
+2017-10-22 17:02:42,114  WARN [main] - ScalaProject - Project parallel runs on platform default installation.
+2017-10-22 17:02:42,129  WARN [main] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2017-10-22 17:02:42,130  WARN [main] - ScalaProject - Project reactive2 runs on platform default installation.
+2017-10-22 17:02:42,133  WARN [main] - ScalaProject - Project progfun has platform default sourceLevel.
+2017-10-22 17:02:42,133  WARN [main] - ScalaProject - Project progfun runs on platform default installation.
+2017-10-22 17:02:42,133  WARN [main] - ScalaProject - Project test has platform default sourceLevel.
+2017-10-22 17:02:42,134  WARN [main] - ScalaProject - Project test runs on platform default installation.
+2017-10-22 17:02:55,710 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.actions.ToggleBreakpointAdapter
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2017-10-22 17:02:56,707 ERROR [main] - System.err - [org.eclipse.jdt.debug] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.debug.core.IJavaHotCodeReplaceListener
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2017-10-22 17:03:00,268  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for stackoverflow, setting default to 2.11.
+2017-10-22 17:03:00,274  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for stackoverflow, setting default to 2.11.
+2017-10-22 17:03:14,010  WARN [Worker-3] - ScalaProject - Project parallel has platform default sourceLevel.
+2017-10-22 17:03:14,010  WARN [Worker-3] - ScalaProject - Project parallel runs on platform default installation.
+2017-10-22 17:03:15,743  WARN [Worker-3] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2017-10-22 17:03:15,744  WARN [Worker-3] - ScalaProject - Project reactive2 runs on platform default installation.
+2017-10-22 17:03:15,997  WARN [Worker-3] - ScalaProject - Project progfun has platform default sourceLevel.
+2017-10-22 17:03:15,997  WARN [Worker-3] - ScalaProject - Project progfun runs on platform default installation.
+2017-10-22 17:03:16,046  WARN [Worker-3] - ScalaProject - Project test has platform default sourceLevel.
+2017-10-22 17:03:16,047  WARN [Worker-3] - ScalaProject - Project test runs on platform default installation.
+2017-10-22 17:03:57,530  WARN [Java indexing] - ScalaProject - Project progfun has platform default sourceLevel.
+2017-10-22 17:03:57,530  WARN [Java indexing] - ScalaProject - Project progfun runs on platform default installation.
+2017-10-22 17:03:59,512  WARN [Java indexing] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2017-10-22 17:03:59,512  WARN [Java indexing] - ScalaProject - Project reactive2 runs on platform default installation.
+2017-10-22 17:04:01,390  WARN [Worker-7] - ScalaProject - Project parallel has platform default sourceLevel.
+2017-10-22 17:04:01,391  WARN [Worker-7] - ScalaProject - Project parallel runs on platform default installation.
+2017-10-22 17:04:05,637  WARN [Java indexing] - ScalaProject - Project test has platform default sourceLevel.
+2017-10-22 17:04:05,638  WARN [Java indexing] - ScalaProject - Project test runs on platform default installation.
+2017-10-22 17:04:06,508  WARN [Worker-7] - ScalaProject - Project progfun has platform default sourceLevel.
+2017-10-22 17:04:06,508  WARN [Worker-7] - ScalaProject - Project progfun runs on platform default installation.
+2017-10-22 17:04:16,594  WARN [Worker-15] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2017-10-22 17:04:16,594  WARN [Worker-15] - ScalaProject - Project reactive2 runs on platform default installation.
+2017-10-22 17:04:40,915  WARN [Worker-15] - ScalaProject - Project test has platform default sourceLevel.
+2017-10-22 17:04:40,916  WARN [Worker-15] - ScalaProject - Project test runs on platform default installation.
+2017-10-22 17:09:44,828  WARN [ModalContext] - ScalaProject - Project observatory has platform default sourceLevel.
+2017-10-22 17:09:44,828  WARN [ModalContext] - ScalaProject - Project observatory runs on platform default installation.
+2017-10-22 17:09:44,828  WARN [ModalContext] - ScalaProject - Project observatory has platform default sourceLevel.
+2017-10-22 17:09:44,828  WARN [ModalContext] - ScalaProject - Project observatory runs on platform default installation.
+2017-10-22 17:09:46,077  WARN [ModalContext] - ScalaProject - Project observatory has platform default sourceLevel.
+2017-10-22 17:09:46,077  WARN [ModalContext] - ScalaProject - Project observatory runs on platform default installation.
+2017-10-22 17:09:47,775  WARN [Worker-10] - ScalaProject - Project observatory has platform default sourceLevel.
+2017-10-22 17:09:47,776  WARN [Worker-10] - ScalaProject - Project observatory runs on platform default installation.
