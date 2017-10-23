@@ -40,3 +40,4 @@ case class CellPoint(x: Double, y: Double)
   */
 case class Color(red: Int, green: Int, blue: Int)
 
+case class LocalTemperature(year: Int, month: Int, day: Int, lat: Double, long: Double, temp: Double)
