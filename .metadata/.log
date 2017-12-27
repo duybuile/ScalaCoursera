@@ -4085,3 +4085,1460 @@ java.util.NoSuchElementException: key not found: C:\Users\buidu\Documents\ScalaC
 	at scala.util.control.Breaks.breakable(Breaks.scala:38)
 	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
 	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+
+!ENTRY org.scala-ide.sdt.core 1 0 2017-10-25 17:49:30.743
+!MESSAGE Timeout while resolving hyperlink in C:\Users\buidu\Documents\ScalaCoursera\observatory\src\main\scala\observatory\Extraction.scala at: offset: 2354, length: 0
+!SESSION 2017-10-29 12:10:48.090 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2017-10-29 12:11:42.647
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-10-29 12:11:42.647
+!MESSAGE A conflict occurred for CTRL+F4:
+Binding(CTRL+F4,
+	ParameterizedCommand(Command(org.eclipse.ui.file.close,Close,
+		Close the active editor,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@119efac,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+F4,
+	ParameterizedCommand(Command(org.scala.tools.eclipse.search.commands.OpenTypeHierarchy,Open Type Hierarchy,
+		Open Type Hierarchy,
+		Category(org.scala.tools.eclipse.search.commands,Search - Scala,Search - Scala,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1969e5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.core.net 4 0 2017-10-29 12:12:08.440
+!MESSAGE WinHttp.GetProxyForUrl for pac failed with error 'The proxy auto-configuration script could not be downloaded
+' #12167.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-10-29 12:12:09.139
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\buidu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.scala-ide.sdt.core 2 0 2017-10-29 12:12:09.438
+!MESSAGE Preference scala.compiler.sourceLevel was uninitialized for observatory, setting default to 2.11.
+
+!ENTRY org.scala-ide.sdt.core 2 0 2017-10-29 12:12:09.440
+!MESSAGE Preference scala.compiler.installation was uninitialized for observatory, setting default to 2.11.
+!SESSION 2017-11-06 15:59:58.799 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2017-11-06 16:00:52.389
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-11-06 16:00:52.389
+!MESSAGE A conflict occurred for CTRL+F4:
+Binding(CTRL+F4,
+	ParameterizedCommand(Command(org.eclipse.ui.file.close,Close,
+		Close the active editor,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1bf8e7a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+F4,
+	ParameterizedCommand(Command(org.scala.tools.eclipse.search.commands.OpenTypeHierarchy,Open Type Hierarchy,
+		Open Type Hierarchy,
+		Category(org.scala.tools.eclipse.search.commands,Search - Scala,Search - Scala,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7c364b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-06 16:01:23.049
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\buidu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.scala-ide.sdt.core 2 0 2017-11-06 16:01:23.357
+!MESSAGE Preference scala.compiler.sourceLevel was uninitialized for observatory, setting default to 2.11.
+
+!ENTRY org.scala-ide.sdt.core 2 0 2017-11-06 16:01:23.357
+!MESSAGE Preference scala.compiler.installation was uninitialized for observatory, setting default to 2.11.
+
+!ENTRY org.eclipse.core.net 4 0 2017-11-08 15:19:45.132
+!MESSAGE WinHttp.GetProxyForUrl for pac failed with error 'The proxy auto-configuration script could not be downloaded
+' #12167.
+!SESSION 2017-11-14 11:18:36.361 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2017-11-14 11:19:29.866
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-11-14 11:19:29.866
+!MESSAGE A conflict occurred for CTRL+F4:
+Binding(CTRL+F4,
+	ParameterizedCommand(Command(org.eclipse.ui.file.close,Close,
+		Close the active editor,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@750fb0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+F4,
+	ParameterizedCommand(Command(org.scala.tools.eclipse.search.commands.OpenTypeHierarchy,Open Type Hierarchy,
+		Open Type Hierarchy,
+		Category(org.scala.tools.eclipse.search.commands,Search - Scala,Search - Scala,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@67f083,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.core.net 4 0 2017-11-14 11:19:55.100
+!MESSAGE WinHttp.GetProxyForUrl for pac failed with error 'The proxy auto-configuration script could not be downloaded
+' #12167.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-14 11:19:55.857
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\buidu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.scala-ide.sdt.core 2 0 2017-11-14 11:19:56.136
+!MESSAGE Preference scala.compiler.sourceLevel was uninitialized for observatory, setting default to 2.11.
+
+!ENTRY org.scala-ide.sdt.core 2 0 2017-11-14 11:19:56.140
+!MESSAGE Preference scala.compiler.installation was uninitialized for observatory, setting default to 2.11.
+!SESSION 2017-12-26 20:37:33.435 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data C:\Users\buidu\Documents\ScalaCoursera -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.runtime 4 0 2017-12-26 20:37:45.552
+!MESSAGE Invalid input url:platform:/plugin/org.scala-ide.sdt.core/icons/full/obj16/scu_obj.gif
+!STACK 0
+java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.scala-ide.sdt.core/icons/full/obj16/scu_obj.gif".
+	at org.eclipse.core.internal.runtime.PlatformURLPluginConnection.parse(PlatformURLPluginConnection.java:61)
+	at org.eclipse.core.internal.runtime.FindSupport.find(FindSupport.java:290)
+	at org.eclipse.core.runtime.FileLocator.find(FileLocator.java:152)
+	at org.eclipse.jface.resource.URLImageDescriptor.getFilePath(URLImageDescriptor.java:209)
+	at org.eclipse.jface.resource.URLImageDescriptor.access$1(URLImageDescriptor.java:200)
+	at org.eclipse.jface.resource.URLImageDescriptor$URLImageFileNameProvider.getImagePath(URLImageDescriptor.java:53)
+	at org.eclipse.swt.internal.DPIUtil.validateAndGetImagePathAtZoom(DPIUtil.java:407)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:684)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:244)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:224)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:202)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImageFromURI(SWTPartRenderer.java:224)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImage(SWTPartRenderer.java:235)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.createTab(StackRenderer.java:895)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.processContents(LazyStackRenderer.java:139)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:536)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:520)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:70)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:975)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:651)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:49)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:103)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:63)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:669)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:725)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1059)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+
+!ENTRY org.eclipse.jface 4 0 2017-12-26 20:37:45.560
+!MESSAGE Unable to resolve plug-in "platform:/plugin/org.scala-ide.sdt.core/icons/full/obj16/scu_obj.gif".
+!STACK 0
+java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.scala-ide.sdt.core/icons/full/obj16/scu_obj.gif".
+	at org.eclipse.core.internal.runtime.PlatformURLPluginConnection.parse(PlatformURLPluginConnection.java:61)
+	at org.eclipse.core.internal.runtime.PlatformURLPluginConnection.resolve(PlatformURLPluginConnection.java:70)
+	at org.eclipse.core.internal.boot.PlatformURLHandler.openConnection(PlatformURLHandler.java:66)
+	at org.eclipse.osgi.internal.url.URLStreamHandlerProxy.openConnection(URLStreamHandlerProxy.java:114)
+	at java.net.URL.openConnection(Unknown Source)
+	at org.eclipse.core.internal.runtime.PlatformURLConverter.toFileURL(PlatformURLConverter.java:31)
+	at org.eclipse.core.runtime.FileLocator.toFileURL(FileLocator.java:207)
+	at org.eclipse.jface.resource.URLImageDescriptor.getFilePath(URLImageDescriptor.java:213)
+	at org.eclipse.jface.resource.URLImageDescriptor.access$1(URLImageDescriptor.java:200)
+	at org.eclipse.jface.resource.URLImageDescriptor$URLImageFileNameProvider.getImagePath(URLImageDescriptor.java:53)
+	at org.eclipse.swt.internal.DPIUtil.validateAndGetImagePathAtZoom(DPIUtil.java:407)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:684)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:244)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:224)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:202)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImageFromURI(SWTPartRenderer.java:224)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImage(SWTPartRenderer.java:235)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.createTab(StackRenderer.java:895)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.processContents(LazyStackRenderer.java:139)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:536)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:520)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:70)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:975)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:651)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:49)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:103)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:63)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:669)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:725)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1059)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+
+!ENTRY org.eclipse.core.runtime 4 0 2017-12-26 20:37:45.560
+!MESSAGE Invalid input url:platform:/plugin/org.scala-ide.sdt.core/icons/full/obj16/scu_obj.gif
+!STACK 0
+java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.scala-ide.sdt.core/icons/full/obj16/scu_obj.gif".
+	at org.eclipse.core.internal.runtime.PlatformURLPluginConnection.parse(PlatformURLPluginConnection.java:61)
+	at org.eclipse.core.internal.runtime.FindSupport.find(FindSupport.java:290)
+	at org.eclipse.core.runtime.FileLocator.find(FileLocator.java:152)
+	at org.eclipse.jface.resource.URLImageDescriptor.getStream(URLImageDescriptor.java:134)
+	at org.eclipse.jface.resource.URLImageDescriptor.getImageData(URLImageDescriptor.java:106)
+	at org.eclipse.jface.resource.URLImageDescriptor.access$2(URLImageDescriptor.java:104)
+	at org.eclipse.jface.resource.URLImageDescriptor$URLImageDataProvider.getImageData(URLImageDescriptor.java:69)
+	at org.eclipse.swt.internal.DPIUtil.validateAndGetImageDataAtZoom(DPIUtil.java:392)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:729)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:254)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:224)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:202)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImageFromURI(SWTPartRenderer.java:224)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImage(SWTPartRenderer.java:235)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.createTab(StackRenderer.java:895)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.processContents(LazyStackRenderer.java:139)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:536)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:520)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:70)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:975)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:651)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:49)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:103)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:63)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:669)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:725)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1059)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+
+!ENTRY org.eclipse.core.net 4 0 2017-12-26 20:37:47.304
+!MESSAGE WinHttp.GetProxyForUrl for pac failed with error 'The proxy auto-configuration script could not be downloaded
+' #12167.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-12-26 20:37:47.876
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\buidu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.mylyn.tasks.ui 4 0 2017-12-26 20:37:48.293
+!MESSAGE Loading of brand 'exceptional' for kind 'mock' failed.
+!STACK 0
+org.eclipse.mylyn.tasks.tests.TestException: Test of exception handling
+
+!ENTRY org.eclipse.mylyn.tasks.ui 4 0 2017-12-26 20:37:48.319
+!MESSAGE Loading of brand 'exceptional' for kind 'mock.dynamic' failed.
+!STACK 0
+org.eclipse.mylyn.tasks.tests.TestException: Test of exception handling
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-12-26 20:37:49.347
+!MESSAGE Removing part descriptor with the 'com.python.pydev.ui.hierarchy.PyHierarchyView' id and the 'Hierarchy View' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-12-26 20:37:49.351
+!MESSAGE Removing part descriptor with the 'com.python.pydev.analysis.indexview.PyIndexView' id and the 'Index View' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-12-26 20:37:49.357
+!MESSAGE Removing part descriptor with the 'org.python.pydev.navigator.view' id and the 'PyDev Package Explorer' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-12-26 20:37:49.363
+!MESSAGE Removing part descriptor with the 'org.python.pydev.views.PyCodeCoverageView' id and the 'Code Coverage' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-12-26 20:37:49.366
+!MESSAGE Removing part descriptor with the 'org.python.pydev.debug.profile.ProfileView' id and the 'Profile' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-12-26 20:37:49.370
+!MESSAGE Removing part descriptor with the 'org.python.pydev.views.ReferrersView' id and the 'Referrers View' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-12-26 20:37:49.375
+!MESSAGE Removing part descriptor with the 'org.python.pydev.views.CurrentExceptionView' id and the 'Caught Exceptions' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-12-26 20:37:49.379
+!MESSAGE Removing part descriptor with the 'org.python.pydev.debug.pyunit.pyUnitView' id and the 'PyUnit' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-12-26 20:37:49.384
+!MESSAGE Removing part descriptor with the 'org.eclipse.wst.jsdt.ui.TypeHierarchy' id and the 'Hierarchy' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-12-26 20:37:49.387
+!MESSAGE Removing part descriptor with the 'org.eclipse.wst.jsdt.ui.PackageExplorer' id and the 'Script Explorer' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-12-26 20:37:49.394
+!MESSAGE Removing part descriptor with the 'org.eclipse.wst.jsdt.callhierarchy.view' id and the 'Call Hierarchy' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-12-26 20:37:49.397
+!MESSAGE Removing part descriptor with the 'org.eclipse.wst.jsdt.ui.SourceView' id and the 'Declaration' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-12-26 20:37:49.401
+!MESSAGE Removing part descriptor with the 'org.eclipse.wst.jsdt.ui.JavadocView' id and the 'Documentation' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-12-26 20:37:49.405
+!MESSAGE Removing part descriptor with the 'org.scala-ide.sdt.core.consoleView' id and the 'Scala Interpreter' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-12-26 20:37:49.413
+!MESSAGE Removing part descriptor with the 'org.scala-ide.sdt.debug.asyncView' id and the 'Async Stack' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-12-26 20:37:49.416
+!MESSAGE Removing part descriptor with the 'org.scalaide.debug.internal.ui.ExpressionEvaluation' id and the 'Scala Expression Evaluator' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-12-26 20:37:49.420
+!MESSAGE Removing part descriptor with the 'scala.tools.eclipse.scalatest.ui.ScalaTestResultView' id and the 'ScalaTest' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-12-26 20:37:49.426
+!MESSAGE Removing part descriptor with the 'org.scalaide.spy.view' id and the 'Scala Spy View' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-12-26 20:37:49.429
+!MESSAGE Removing part descriptor with the 'org.scala.tools.eclipse.search.ui.typehiearchy' id and the 'Type Hierarchy' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+!SESSION 2017-12-26 20:57:09.763 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data file:/C:/Users/buidu/Documents/ScalaCoursera/ -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-12-26 20:57:51.239
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\buidu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.scala-ide.sdt.core 2 0 2017-12-26 20:57:51.727
+!MESSAGE Preference scala.compiler.sourceLevel was uninitialized for observatory, setting default to 2.12.
+
+!ENTRY org.scala-ide.sdt.core 2 0 2017-12-26 20:57:51.738
+!MESSAGE Preference scala.compiler.installation was uninitialized for observatory, setting default to 2.12.
+
+!ENTRY org.eclipse.core.net 4 0 2017-12-26 20:57:52.109
+!MESSAGE WinHttp.GetProxyForUrl for pac failed with error 'The proxy auto-configuration script could not be downloaded
+' #12167.
+
+!ENTRY org.eclipse.mylyn.tasks.ui 4 0 2017-12-26 20:57:52.294
+!MESSAGE Loading of brand 'exceptional' for kind 'mock' failed.
+!STACK 0
+org.eclipse.mylyn.tasks.tests.TestException: Test of exception handling
+
+!ENTRY org.eclipse.mylyn.tasks.ui 4 0 2017-12-26 20:57:52.322
+!MESSAGE Loading of brand 'exceptional' for kind 'mock.dynamic' failed.
+!STACK 0
+org.eclipse.mylyn.tasks.tests.TestException: Test of exception handling
+
+!ENTRY org.eclipse.core.contenttype 4 0 2017-12-26 20:58:28.703
+!MESSAGE Could not create content describer for scala.tools.eclipse.scalaClass. Content type has been disabled.
+!STACK 0
+scala.MatchError: 63 (of class java.lang.Byte)
+	at scala.tools.scalap.Classfile$Pool.<init>(Classfile.scala:97)
+	at scala.tools.scalap.Classfile.<init>(Classfile.scala:20)
+	at org.scalaide.core.internal.jdt.model.ScalaClassFileDescriber$.isScala(ScalaClassFileDescriber.scala:16)
+	at org.scalaide.core.internal.jdt.model.ScalaClassFileDescriber.describe(ScalaClassFileDescriber.scala:38)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.describe(ContentTypeCatalog.java:229)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.collectMatchingByContents(ContentTypeCatalog.java:201)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.internalFindContentTypesFor(ContentTypeCatalog.java:414)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.internalFindContentTypesFor(ContentTypeCatalog.java:461)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.getDescriptionFor(ContentTypeCatalog.java:357)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.getDescriptionFor(ContentTypeCatalog.java:371)
+	at org.eclipse.core.internal.content.ContentTypeMatcher.getDescriptionFor(ContentTypeMatcher.java:76)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager.readDescription(ContentDescriptionManager.java:453)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager.getDescriptionFor(ContentDescriptionManager.java:363)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:263)
+	at de.walware.eutils.autonature.internal.ResourceListener.checkFile(ResourceListener.java:95)
+	at de.walware.eutils.autonature.internal.ResourceListener.visit(ResourceListener.java:85)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:64)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at de.walware.eutils.autonature.internal.ResourceListener.resourceChanged(ResourceListener.java:62)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:157)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.scala-ide.sdt.core 1 0 2017-12-26 22:16:11.013
+!MESSAGE Timeout while resolving hyperlink in C:\Users\buidu\Documents\ScalaCoursera\observatory\src\main\scala\observatory\Extraction.scala at: offset: 4378, length: 0
+
+!ENTRY org.scala-ide.sdt.core 1 0 2017-12-27 11:54:29.303
+!MESSAGE Timeout while resolving hyperlink in C:\Users\buidu\Documents\ScalaCoursera\observatory\src\main\scala\observatory\Visualization.scala at: offset: 495, length: 0
+
+!ENTRY org.eclipse.jdt.junit 4 4 2017-12-27 11:59:29.373
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.SourceTypeElementInfo.getEnclosingType(SourceTypeElementInfo.java:90)
+	at org.eclipse.jdt.internal.compiler.parser.SourceTypeConverter.convert(SourceTypeConverter.java:454)
+	at org.eclipse.jdt.internal.compiler.parser.SourceTypeConverter.convert(SourceTypeConverter.java:518)
+	at org.eclipse.jdt.internal.compiler.parser.SourceTypeConverter.ajc$privMethod$scala_tools_eclipse_contribution_weaving_jdt_cfprovider_ClassFileProviderAspect$org_eclipse_jdt_internal_compiler_parser_SourceTypeConverter$convert(SourceTypeConverter.java:1)
+	at scala.tools.eclipse.contribution.weaving.jdt.cfprovider.ClassFileProviderAspect.ajc$around$scala_tools_eclipse_contribution_weaving_jdt_cfprovider_ClassFileProviderAspect$11$998f7f7a(ClassFileProviderAspect.aj:308)
+	at org.eclipse.jdt.internal.compiler.parser.SourceTypeConverter.convert(SourceTypeConverter.java:110)
+	at org.eclipse.jdt.internal.compiler.parser.SourceTypeConverter.buildCompilationUnit(SourceTypeConverter.java:96)
+	at org.eclipse.jdt.internal.core.hierarchy.HierarchyResolver.resolve(HierarchyResolver.java:709)
+	at org.eclipse.jdt.internal.core.hierarchy.RegionBasedHierarchyBuilder.createTypeHierarchyBasedOnRegion(RegionBasedHierarchyBuilder.java:82)
+	at org.eclipse.jdt.internal.core.hierarchy.RegionBasedHierarchyBuilder.build(RegionBasedHierarchyBuilder.java:51)
+	at org.eclipse.jdt.internal.core.hierarchy.RegionBasedTypeHierarchy.compute(RegionBasedTypeHierarchy.java:74)
+	at org.eclipse.jdt.internal.core.hierarchy.TypeHierarchy.refresh(TypeHierarchy.java:1286)
+	at org.eclipse.jdt.internal.core.CreateTypeHierarchyOperation.executeOperation(CreateTypeHierarchyOperation.java:90)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:724)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:790)
+	at org.eclipse.jdt.internal.core.JavaProject.newTypeHierarchy(JavaProject.java:2431)
+	at org.eclipse.jdt.internal.core.JavaProject.newTypeHierarchy(JavaProject.java:2409)
+	at org.eclipse.jdt.internal.junit.launcher.JUnit3TestFinder.findTestCases(JUnit3TestFinder.java:83)
+	at org.eclipse.jdt.internal.junit.launcher.JUnit3TestFinder.findTestsInContainer(JUnit3TestFinder.java:61)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine$1.run(TestSearchEngine.java:42)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY org.eclipse.jdt.junit 4 4 2017-12-27 11:59:35.522
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.SourceTypeElementInfo.getEnclosingType(SourceTypeElementInfo.java:90)
+	at org.eclipse.jdt.internal.compiler.parser.SourceTypeConverter.convert(SourceTypeConverter.java:454)
+	at org.eclipse.jdt.internal.compiler.parser.SourceTypeConverter.convert(SourceTypeConverter.java:518)
+	at org.eclipse.jdt.internal.compiler.parser.SourceTypeConverter.ajc$privMethod$scala_tools_eclipse_contribution_weaving_jdt_cfprovider_ClassFileProviderAspect$org_eclipse_jdt_internal_compiler_parser_SourceTypeConverter$convert(SourceTypeConverter.java:1)
+	at scala.tools.eclipse.contribution.weaving.jdt.cfprovider.ClassFileProviderAspect.ajc$around$scala_tools_eclipse_contribution_weaving_jdt_cfprovider_ClassFileProviderAspect$11$998f7f7a(ClassFileProviderAspect.aj:308)
+	at org.eclipse.jdt.internal.compiler.parser.SourceTypeConverter.convert(SourceTypeConverter.java:110)
+	at org.eclipse.jdt.internal.compiler.parser.SourceTypeConverter.buildCompilationUnit(SourceTypeConverter.java:96)
+	at org.eclipse.jdt.internal.core.hierarchy.HierarchyResolver.resolve(HierarchyResolver.java:709)
+	at org.eclipse.jdt.internal.core.hierarchy.RegionBasedHierarchyBuilder.createTypeHierarchyBasedOnRegion(RegionBasedHierarchyBuilder.java:82)
+	at org.eclipse.jdt.internal.core.hierarchy.RegionBasedHierarchyBuilder.build(RegionBasedHierarchyBuilder.java:51)
+	at org.eclipse.jdt.internal.core.hierarchy.RegionBasedTypeHierarchy.compute(RegionBasedTypeHierarchy.java:74)
+	at org.eclipse.jdt.internal.core.hierarchy.TypeHierarchy.refresh(TypeHierarchy.java:1286)
+	at org.eclipse.jdt.internal.core.CreateTypeHierarchyOperation.executeOperation(CreateTypeHierarchyOperation.java:90)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:724)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:790)
+	at org.eclipse.jdt.internal.core.JavaProject.newTypeHierarchy(JavaProject.java:2431)
+	at org.eclipse.jdt.internal.core.JavaProject.newTypeHierarchy(JavaProject.java:2409)
+	at org.eclipse.jdt.internal.junit.launcher.JUnit3TestFinder.findTestCases(JUnit3TestFinder.java:83)
+	at org.eclipse.jdt.internal.junit.launcher.JUnit3TestFinder.findTestsInContainer(JUnit3TestFinder.java:61)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine$1.run(TestSearchEngine.java:42)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2017-12-27 12:56:24.151
+!MESSAGE Error in Scala compiler
+!STACK 0
+java.lang.AssertionError: assertion failed: Modified names for observatory.InteractionTest is empty
+	at scala.Predef$.assert(Predef.scala:219)
+	at sbt.internal.inc.NamesChange.<init>(Changes.scala:54)
+	at sbt.internal.inc.IncrementalNameHashing.sameAPI(IncrementalNameHashing.scala:46)
+	at sbt.internal.inc.IncrementalCommon.sameClass(IncrementalCommon.scala:206)
+	at sbt.internal.inc.IncrementalCommon.$anonfun$changedIncremental$1(IncrementalCommon.scala:188)
+	at scala.collection.TraversableLike.$anonfun$flatMap$1(TraversableLike.scala:241)
+	at scala.collection.immutable.Set$Set1.foreach(Set.scala:95)
+	at scala.collection.TraversableLike.flatMap(TraversableLike.scala:241)
+	at scala.collection.TraversableLike.flatMap$(TraversableLike.scala:238)
+	at scala.collection.AbstractTraversable.flatMap(Traversable.scala:104)
+	at sbt.internal.inc.IncrementalCommon.changedIncremental(IncrementalCommon.scala:187)
+	at sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:77)
+	at sbt.internal.inc.Incremental$.$anonfun$compile$3(Incremental.scala:84)
+	at sbt.internal.inc.Incremental$.manageClassfiles(Incremental.scala:129)
+	at sbt.internal.inc.Incremental$.compile(Incremental.scala:75)
+	at sbt.internal.inc.IncrementalCompile$.apply(Compile.scala:70)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:309)
+	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:267)
+	at sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:158)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:237)
+	at sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:145)
+	at org.scalaide.core.internal.builder.zinc.CachingCompiler.compile(CachingCompiler.scala:56)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.aggressiveCompile(EclipseSbtBuildManager.scala:219)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.runCompiler(EclipseSbtBuildManager.scala:152)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.update(EclipseSbtBuildManager.scala:134)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.build(EclipseSbtBuildManager.scala:85)
+	at org.scalaide.core.internal.project.scopes.BuildScopeUnit.build(BuildScopeUnit.scala:72)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.$anonfun$build$3(SbtScopesBuildManager.scala:53)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.$anonfun$build$3$adapted(SbtScopesBuildManager.scala:50)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.build(SbtScopesBuildManager.scala:50)
+	at org.scalaide.core.internal.project.ScalaProject.build(ScalaProject.scala:596)
+	at org.scalaide.core.internal.builder.ScalaBuilder.build(ScalaBuilder.scala:111)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2017-12-27 13:17:29.590
+!MESSAGE Error in Scala compiler
+!STACK 0
+java.lang.AssertionError: assertion failed: Modified names for observatory.InteractionTest is empty
+	at scala.Predef$.assert(Predef.scala:219)
+	at sbt.internal.inc.NamesChange.<init>(Changes.scala:54)
+	at sbt.internal.inc.IncrementalNameHashing.sameAPI(IncrementalNameHashing.scala:46)
+	at sbt.internal.inc.IncrementalCommon.sameClass(IncrementalCommon.scala:206)
+	at sbt.internal.inc.IncrementalCommon.$anonfun$changedIncremental$1(IncrementalCommon.scala:188)
+	at scala.collection.TraversableLike.$anonfun$flatMap$1(TraversableLike.scala:241)
+	at scala.collection.immutable.Set$Set1.foreach(Set.scala:95)
+	at scala.collection.TraversableLike.flatMap(TraversableLike.scala:241)
+	at scala.collection.TraversableLike.flatMap$(TraversableLike.scala:238)
+	at scala.collection.AbstractTraversable.flatMap(Traversable.scala:104)
+	at sbt.internal.inc.IncrementalCommon.changedIncremental(IncrementalCommon.scala:187)
+	at sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:77)
+	at sbt.internal.inc.Incremental$.$anonfun$compile$3(Incremental.scala:84)
+	at sbt.internal.inc.Incremental$.manageClassfiles(Incremental.scala:129)
+	at sbt.internal.inc.Incremental$.compile(Incremental.scala:75)
+	at sbt.internal.inc.IncrementalCompile$.apply(Compile.scala:70)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:309)
+	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:267)
+	at sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:158)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:237)
+	at sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:145)
+	at org.scalaide.core.internal.builder.zinc.CachingCompiler.compile(CachingCompiler.scala:56)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.aggressiveCompile(EclipseSbtBuildManager.scala:219)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.runCompiler(EclipseSbtBuildManager.scala:152)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.update(EclipseSbtBuildManager.scala:134)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.build(EclipseSbtBuildManager.scala:85)
+	at org.scalaide.core.internal.project.scopes.BuildScopeUnit.build(BuildScopeUnit.scala:72)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.$anonfun$build$3(SbtScopesBuildManager.scala:53)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.$anonfun$build$3$adapted(SbtScopesBuildManager.scala:50)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.build(SbtScopesBuildManager.scala:50)
+	at org.scalaide.core.internal.project.ScalaProject.build(ScalaProject.scala:596)
+	at org.scalaide.core.internal.builder.ScalaBuilder.build(ScalaBuilder.scala:111)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2017-12-27 13:20:20.947
+!MESSAGE Error in Scala compiler
+!STACK 0
+java.lang.AssertionError: assertion failed: Modified names for observatory.InteractionTest is empty
+	at scala.Predef$.assert(Predef.scala:219)
+	at sbt.internal.inc.NamesChange.<init>(Changes.scala:54)
+	at sbt.internal.inc.IncrementalNameHashing.sameAPI(IncrementalNameHashing.scala:46)
+	at sbt.internal.inc.IncrementalCommon.sameClass(IncrementalCommon.scala:206)
+	at sbt.internal.inc.IncrementalCommon.$anonfun$changedIncremental$1(IncrementalCommon.scala:188)
+	at scala.collection.TraversableLike.$anonfun$flatMap$1(TraversableLike.scala:241)
+	at scala.collection.immutable.Set$Set1.foreach(Set.scala:95)
+	at scala.collection.TraversableLike.flatMap(TraversableLike.scala:241)
+	at scala.collection.TraversableLike.flatMap$(TraversableLike.scala:238)
+	at scala.collection.AbstractTraversable.flatMap(Traversable.scala:104)
+	at sbt.internal.inc.IncrementalCommon.changedIncremental(IncrementalCommon.scala:187)
+	at sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:77)
+	at sbt.internal.inc.Incremental$.$anonfun$compile$3(Incremental.scala:84)
+	at sbt.internal.inc.Incremental$.manageClassfiles(Incremental.scala:129)
+	at sbt.internal.inc.Incremental$.compile(Incremental.scala:75)
+	at sbt.internal.inc.IncrementalCompile$.apply(Compile.scala:70)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:309)
+	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:267)
+	at sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:158)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:237)
+	at sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:145)
+	at org.scalaide.core.internal.builder.zinc.CachingCompiler.compile(CachingCompiler.scala:56)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.aggressiveCompile(EclipseSbtBuildManager.scala:219)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.runCompiler(EclipseSbtBuildManager.scala:152)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.update(EclipseSbtBuildManager.scala:134)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.build(EclipseSbtBuildManager.scala:85)
+	at org.scalaide.core.internal.project.scopes.BuildScopeUnit.build(BuildScopeUnit.scala:72)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.$anonfun$build$3(SbtScopesBuildManager.scala:53)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.$anonfun$build$3$adapted(SbtScopesBuildManager.scala:50)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.build(SbtScopesBuildManager.scala:50)
+	at org.scalaide.core.internal.project.ScalaProject.build(ScalaProject.scala:596)
+	at org.scalaide.core.internal.builder.ScalaBuilder.build(ScalaBuilder.scala:111)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2017-12-27 13:21:50.522
+!MESSAGE Error in Scala compiler
+!STACK 0
+java.lang.AssertionError: assertion failed: Modified names for observatory.InteractionTest is empty
+	at scala.Predef$.assert(Predef.scala:219)
+	at sbt.internal.inc.NamesChange.<init>(Changes.scala:54)
+	at sbt.internal.inc.IncrementalNameHashing.sameAPI(IncrementalNameHashing.scala:46)
+	at sbt.internal.inc.IncrementalCommon.sameClass(IncrementalCommon.scala:206)
+	at sbt.internal.inc.IncrementalCommon.$anonfun$changedIncremental$1(IncrementalCommon.scala:188)
+	at scala.collection.TraversableLike.$anonfun$flatMap$1(TraversableLike.scala:241)
+	at scala.collection.immutable.Set$Set1.foreach(Set.scala:95)
+	at scala.collection.TraversableLike.flatMap(TraversableLike.scala:241)
+	at scala.collection.TraversableLike.flatMap$(TraversableLike.scala:238)
+	at scala.collection.AbstractTraversable.flatMap(Traversable.scala:104)
+	at sbt.internal.inc.IncrementalCommon.changedIncremental(IncrementalCommon.scala:187)
+	at sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:77)
+	at sbt.internal.inc.Incremental$.$anonfun$compile$3(Incremental.scala:84)
+	at sbt.internal.inc.Incremental$.manageClassfiles(Incremental.scala:129)
+	at sbt.internal.inc.Incremental$.compile(Incremental.scala:75)
+	at sbt.internal.inc.IncrementalCompile$.apply(Compile.scala:70)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:309)
+	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:267)
+	at sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:158)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:237)
+	at sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:145)
+	at org.scalaide.core.internal.builder.zinc.CachingCompiler.compile(CachingCompiler.scala:56)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.aggressiveCompile(EclipseSbtBuildManager.scala:219)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.runCompiler(EclipseSbtBuildManager.scala:152)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.update(EclipseSbtBuildManager.scala:134)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.build(EclipseSbtBuildManager.scala:85)
+	at org.scalaide.core.internal.project.scopes.BuildScopeUnit.build(BuildScopeUnit.scala:72)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.$anonfun$build$3(SbtScopesBuildManager.scala:53)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.$anonfun$build$3$adapted(SbtScopesBuildManager.scala:50)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.build(SbtScopesBuildManager.scala:50)
+	at org.scalaide.core.internal.project.ScalaProject.build(ScalaProject.scala:596)
+	at org.scalaide.core.internal.builder.ScalaBuilder.build(ScalaBuilder.scala:111)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2017-12-27 13:22:28.821
+!MESSAGE Error in Scala compiler
+!STACK 0
+java.lang.AssertionError: assertion failed: Modified names for observatory.InteractionTest is empty
+	at scala.Predef$.assert(Predef.scala:219)
+	at sbt.internal.inc.NamesChange.<init>(Changes.scala:54)
+	at sbt.internal.inc.IncrementalNameHashing.sameAPI(IncrementalNameHashing.scala:46)
+	at sbt.internal.inc.IncrementalCommon.sameClass(IncrementalCommon.scala:206)
+	at sbt.internal.inc.IncrementalCommon.$anonfun$changedIncremental$1(IncrementalCommon.scala:188)
+	at scala.collection.TraversableLike.$anonfun$flatMap$1(TraversableLike.scala:241)
+	at scala.collection.immutable.Set$Set1.foreach(Set.scala:95)
+	at scala.collection.TraversableLike.flatMap(TraversableLike.scala:241)
+	at scala.collection.TraversableLike.flatMap$(TraversableLike.scala:238)
+	at scala.collection.AbstractTraversable.flatMap(Traversable.scala:104)
+	at sbt.internal.inc.IncrementalCommon.changedIncremental(IncrementalCommon.scala:187)
+	at sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:77)
+	at sbt.internal.inc.Incremental$.$anonfun$compile$3(Incremental.scala:84)
+	at sbt.internal.inc.Incremental$.manageClassfiles(Incremental.scala:129)
+	at sbt.internal.inc.Incremental$.compile(Incremental.scala:75)
+	at sbt.internal.inc.IncrementalCompile$.apply(Compile.scala:70)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:309)
+	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:267)
+	at sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:158)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:237)
+	at sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:145)
+	at org.scalaide.core.internal.builder.zinc.CachingCompiler.compile(CachingCompiler.scala:56)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.aggressiveCompile(EclipseSbtBuildManager.scala:219)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.runCompiler(EclipseSbtBuildManager.scala:152)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.update(EclipseSbtBuildManager.scala:134)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.build(EclipseSbtBuildManager.scala:85)
+	at org.scalaide.core.internal.project.scopes.BuildScopeUnit.build(BuildScopeUnit.scala:72)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.$anonfun$build$3(SbtScopesBuildManager.scala:53)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.$anonfun$build$3$adapted(SbtScopesBuildManager.scala:50)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.build(SbtScopesBuildManager.scala:50)
+	at org.scalaide.core.internal.project.ScalaProject.build(ScalaProject.scala:596)
+	at org.scalaide.core.internal.builder.ScalaBuilder.build(ScalaBuilder.scala:111)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2017-12-27 13:23:02.042
+!MESSAGE Error in Scala compiler
+!STACK 0
+java.lang.AssertionError: assertion failed: Modified names for observatory.InteractionTest is empty
+	at scala.Predef$.assert(Predef.scala:219)
+	at sbt.internal.inc.NamesChange.<init>(Changes.scala:54)
+	at sbt.internal.inc.IncrementalNameHashing.sameAPI(IncrementalNameHashing.scala:46)
+	at sbt.internal.inc.IncrementalCommon.sameClass(IncrementalCommon.scala:206)
+	at sbt.internal.inc.IncrementalCommon.$anonfun$changedIncremental$1(IncrementalCommon.scala:188)
+	at scala.collection.TraversableLike.$anonfun$flatMap$1(TraversableLike.scala:241)
+	at scala.collection.immutable.Set$Set1.foreach(Set.scala:95)
+	at scala.collection.TraversableLike.flatMap(TraversableLike.scala:241)
+	at scala.collection.TraversableLike.flatMap$(TraversableLike.scala:238)
+	at scala.collection.AbstractTraversable.flatMap(Traversable.scala:104)
+	at sbt.internal.inc.IncrementalCommon.changedIncremental(IncrementalCommon.scala:187)
+	at sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:77)
+	at sbt.internal.inc.Incremental$.$anonfun$compile$3(Incremental.scala:84)
+	at sbt.internal.inc.Incremental$.manageClassfiles(Incremental.scala:129)
+	at sbt.internal.inc.Incremental$.compile(Incremental.scala:75)
+	at sbt.internal.inc.IncrementalCompile$.apply(Compile.scala:70)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:309)
+	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:267)
+	at sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:158)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:237)
+	at sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:145)
+	at org.scalaide.core.internal.builder.zinc.CachingCompiler.compile(CachingCompiler.scala:56)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.aggressiveCompile(EclipseSbtBuildManager.scala:219)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.runCompiler(EclipseSbtBuildManager.scala:152)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.update(EclipseSbtBuildManager.scala:134)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.build(EclipseSbtBuildManager.scala:85)
+	at org.scalaide.core.internal.project.scopes.BuildScopeUnit.build(BuildScopeUnit.scala:72)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.$anonfun$build$3(SbtScopesBuildManager.scala:53)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.$anonfun$build$3$adapted(SbtScopesBuildManager.scala:50)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.build(SbtScopesBuildManager.scala:50)
+	at org.scalaide.core.internal.project.ScalaProject.build(ScalaProject.scala:596)
+	at org.scalaide.core.internal.builder.ScalaBuilder.build(ScalaBuilder.scala:111)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2017-12-27 13:23:12.221
+!MESSAGE Error in Scala compiler
+!STACK 0
+java.lang.AssertionError: assertion failed: Modified names for observatory.InteractionTest is empty
+	at scala.Predef$.assert(Predef.scala:219)
+	at sbt.internal.inc.NamesChange.<init>(Changes.scala:54)
+	at sbt.internal.inc.IncrementalNameHashing.sameAPI(IncrementalNameHashing.scala:46)
+	at sbt.internal.inc.IncrementalCommon.sameClass(IncrementalCommon.scala:206)
+	at sbt.internal.inc.IncrementalCommon.$anonfun$changedIncremental$1(IncrementalCommon.scala:188)
+	at scala.collection.TraversableLike.$anonfun$flatMap$1(TraversableLike.scala:241)
+	at scala.collection.immutable.Set$Set1.foreach(Set.scala:95)
+	at scala.collection.TraversableLike.flatMap(TraversableLike.scala:241)
+	at scala.collection.TraversableLike.flatMap$(TraversableLike.scala:238)
+	at scala.collection.AbstractTraversable.flatMap(Traversable.scala:104)
+	at sbt.internal.inc.IncrementalCommon.changedIncremental(IncrementalCommon.scala:187)
+	at sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:77)
+	at sbt.internal.inc.Incremental$.$anonfun$compile$3(Incremental.scala:84)
+	at sbt.internal.inc.Incremental$.manageClassfiles(Incremental.scala:129)
+	at sbt.internal.inc.Incremental$.compile(Incremental.scala:75)
+	at sbt.internal.inc.IncrementalCompile$.apply(Compile.scala:70)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:309)
+	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:267)
+	at sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:158)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:237)
+	at sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:145)
+	at org.scalaide.core.internal.builder.zinc.CachingCompiler.compile(CachingCompiler.scala:56)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.aggressiveCompile(EclipseSbtBuildManager.scala:219)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.runCompiler(EclipseSbtBuildManager.scala:152)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.update(EclipseSbtBuildManager.scala:134)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.build(EclipseSbtBuildManager.scala:85)
+	at org.scalaide.core.internal.project.scopes.BuildScopeUnit.build(BuildScopeUnit.scala:72)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.$anonfun$build$3(SbtScopesBuildManager.scala:53)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.$anonfun$build$3$adapted(SbtScopesBuildManager.scala:50)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.build(SbtScopesBuildManager.scala:50)
+	at org.scalaide.core.internal.project.ScalaProject.build(ScalaProject.scala:596)
+	at org.scalaide.core.internal.builder.ScalaBuilder.build(ScalaBuilder.scala:111)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2017-12-27 13:23:57.511
+!MESSAGE Error in Scala compiler
+!STACK 0
+java.lang.AssertionError: assertion failed: Modified names for observatory.InteractionTest is empty
+	at scala.Predef$.assert(Predef.scala:219)
+	at sbt.internal.inc.NamesChange.<init>(Changes.scala:54)
+	at sbt.internal.inc.IncrementalNameHashing.sameAPI(IncrementalNameHashing.scala:46)
+	at sbt.internal.inc.IncrementalCommon.sameClass(IncrementalCommon.scala:206)
+	at sbt.internal.inc.IncrementalCommon.$anonfun$changedIncremental$1(IncrementalCommon.scala:188)
+	at scala.collection.TraversableLike.$anonfun$flatMap$1(TraversableLike.scala:241)
+	at scala.collection.immutable.Set$Set1.foreach(Set.scala:95)
+	at scala.collection.TraversableLike.flatMap(TraversableLike.scala:241)
+	at scala.collection.TraversableLike.flatMap$(TraversableLike.scala:238)
+	at scala.collection.AbstractTraversable.flatMap(Traversable.scala:104)
+	at sbt.internal.inc.IncrementalCommon.changedIncremental(IncrementalCommon.scala:187)
+	at sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:77)
+	at sbt.internal.inc.Incremental$.$anonfun$compile$3(Incremental.scala:84)
+	at sbt.internal.inc.Incremental$.manageClassfiles(Incremental.scala:129)
+	at sbt.internal.inc.Incremental$.compile(Incremental.scala:75)
+	at sbt.internal.inc.IncrementalCompile$.apply(Compile.scala:70)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:309)
+	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:267)
+	at sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:158)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:237)
+	at sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:145)
+	at org.scalaide.core.internal.builder.zinc.CachingCompiler.compile(CachingCompiler.scala:56)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.aggressiveCompile(EclipseSbtBuildManager.scala:219)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.runCompiler(EclipseSbtBuildManager.scala:152)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.update(EclipseSbtBuildManager.scala:134)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.build(EclipseSbtBuildManager.scala:85)
+	at org.scalaide.core.internal.project.scopes.BuildScopeUnit.build(BuildScopeUnit.scala:72)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.$anonfun$build$3(SbtScopesBuildManager.scala:53)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.$anonfun$build$3$adapted(SbtScopesBuildManager.scala:50)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.build(SbtScopesBuildManager.scala:50)
+	at org.scalaide.core.internal.project.ScalaProject.build(ScalaProject.scala:596)
+	at org.scalaide.core.internal.builder.ScalaBuilder.build(ScalaBuilder.scala:111)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2017-12-27 13:26:35.960
+!MESSAGE Error in Scala compiler
+!STACK 0
+java.lang.AssertionError: assertion failed: Modified names for observatory.InteractionTest is empty
+	at scala.Predef$.assert(Predef.scala:219)
+	at sbt.internal.inc.NamesChange.<init>(Changes.scala:54)
+	at sbt.internal.inc.IncrementalNameHashing.sameAPI(IncrementalNameHashing.scala:46)
+	at sbt.internal.inc.IncrementalCommon.sameClass(IncrementalCommon.scala:206)
+	at sbt.internal.inc.IncrementalCommon.$anonfun$changedIncremental$1(IncrementalCommon.scala:188)
+	at scala.collection.TraversableLike.$anonfun$flatMap$1(TraversableLike.scala:241)
+	at scala.collection.immutable.Set$Set1.foreach(Set.scala:95)
+	at scala.collection.TraversableLike.flatMap(TraversableLike.scala:241)
+	at scala.collection.TraversableLike.flatMap$(TraversableLike.scala:238)
+	at scala.collection.AbstractTraversable.flatMap(Traversable.scala:104)
+	at sbt.internal.inc.IncrementalCommon.changedIncremental(IncrementalCommon.scala:187)
+	at sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:77)
+	at sbt.internal.inc.Incremental$.$anonfun$compile$3(Incremental.scala:84)
+	at sbt.internal.inc.Incremental$.manageClassfiles(Incremental.scala:129)
+	at sbt.internal.inc.Incremental$.compile(Incremental.scala:75)
+	at sbt.internal.inc.IncrementalCompile$.apply(Compile.scala:70)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:309)
+	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:267)
+	at sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:158)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:237)
+	at sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:145)
+	at org.scalaide.core.internal.builder.zinc.CachingCompiler.compile(CachingCompiler.scala:56)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.aggressiveCompile(EclipseSbtBuildManager.scala:219)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.runCompiler(EclipseSbtBuildManager.scala:152)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.update(EclipseSbtBuildManager.scala:134)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.build(EclipseSbtBuildManager.scala:85)
+	at org.scalaide.core.internal.project.scopes.BuildScopeUnit.build(BuildScopeUnit.scala:72)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.$anonfun$build$3(SbtScopesBuildManager.scala:53)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.$anonfun$build$3$adapted(SbtScopesBuildManager.scala:50)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.build(SbtScopesBuildManager.scala:50)
+	at org.scalaide.core.internal.project.ScalaProject.build(ScalaProject.scala:596)
+	at org.scalaide.core.internal.builder.ScalaBuilder.build(ScalaBuilder.scala:111)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2017-12-27 15:09:46.978
+!MESSAGE Error in Scala compiler
+!STACK 0
+java.lang.AssertionError: assertion failed: Modified names for observatory.InteractionTest is empty
+	at scala.Predef$.assert(Predef.scala:219)
+	at sbt.internal.inc.NamesChange.<init>(Changes.scala:54)
+	at sbt.internal.inc.IncrementalNameHashing.sameAPI(IncrementalNameHashing.scala:46)
+	at sbt.internal.inc.IncrementalCommon.sameClass(IncrementalCommon.scala:206)
+	at sbt.internal.inc.IncrementalCommon.$anonfun$changedIncremental$1(IncrementalCommon.scala:188)
+	at scala.collection.TraversableLike.$anonfun$flatMap$1(TraversableLike.scala:241)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:130)
+	at scala.collection.TraversableLike.flatMap(TraversableLike.scala:241)
+	at scala.collection.TraversableLike.flatMap$(TraversableLike.scala:238)
+	at scala.collection.AbstractTraversable.flatMap(Traversable.scala:104)
+	at sbt.internal.inc.IncrementalCommon.changedIncremental(IncrementalCommon.scala:187)
+	at sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:77)
+	at sbt.internal.inc.Incremental$.$anonfun$compile$3(Incremental.scala:84)
+	at sbt.internal.inc.Incremental$.manageClassfiles(Incremental.scala:129)
+	at sbt.internal.inc.Incremental$.compile(Incremental.scala:75)
+	at sbt.internal.inc.IncrementalCompile$.apply(Compile.scala:70)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:309)
+	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:267)
+	at sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:158)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:237)
+	at sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:145)
+	at org.scalaide.core.internal.builder.zinc.CachingCompiler.compile(CachingCompiler.scala:56)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.aggressiveCompile(EclipseSbtBuildManager.scala:219)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.runCompiler(EclipseSbtBuildManager.scala:152)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.update(EclipseSbtBuildManager.scala:134)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.build(EclipseSbtBuildManager.scala:85)
+	at org.scalaide.core.internal.project.scopes.BuildScopeUnit.build(BuildScopeUnit.scala:72)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.$anonfun$build$3(SbtScopesBuildManager.scala:53)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.$anonfun$build$3$adapted(SbtScopesBuildManager.scala:50)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.build(SbtScopesBuildManager.scala:50)
+	at org.scalaide.core.internal.project.ScalaProject.build(ScalaProject.scala:596)
+	at org.scalaide.core.internal.builder.ScalaBuilder.build(ScalaBuilder.scala:111)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2017-12-27 15:10:00.521
+!MESSAGE Error in Scala compiler
+!STACK 0
+java.lang.AssertionError: assertion failed: Modified names for observatory.InteractionTest is empty
+	at scala.Predef$.assert(Predef.scala:219)
+	at sbt.internal.inc.NamesChange.<init>(Changes.scala:54)
+	at sbt.internal.inc.IncrementalNameHashing.sameAPI(IncrementalNameHashing.scala:46)
+	at sbt.internal.inc.IncrementalCommon.sameClass(IncrementalCommon.scala:206)
+	at sbt.internal.inc.IncrementalCommon.$anonfun$changedIncremental$1(IncrementalCommon.scala:188)
+	at scala.collection.TraversableLike.$anonfun$flatMap$1(TraversableLike.scala:241)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:130)
+	at scala.collection.TraversableLike.flatMap(TraversableLike.scala:241)
+	at scala.collection.TraversableLike.flatMap$(TraversableLike.scala:238)
+	at scala.collection.AbstractTraversable.flatMap(Traversable.scala:104)
+	at sbt.internal.inc.IncrementalCommon.changedIncremental(IncrementalCommon.scala:187)
+	at sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:77)
+	at sbt.internal.inc.Incremental$.$anonfun$compile$3(Incremental.scala:84)
+	at sbt.internal.inc.Incremental$.manageClassfiles(Incremental.scala:129)
+	at sbt.internal.inc.Incremental$.compile(Incremental.scala:75)
+	at sbt.internal.inc.IncrementalCompile$.apply(Compile.scala:70)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:309)
+	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:267)
+	at sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:158)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:237)
+	at sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:145)
+	at org.scalaide.core.internal.builder.zinc.CachingCompiler.compile(CachingCompiler.scala:56)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.aggressiveCompile(EclipseSbtBuildManager.scala:219)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.runCompiler(EclipseSbtBuildManager.scala:152)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.update(EclipseSbtBuildManager.scala:134)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.build(EclipseSbtBuildManager.scala:85)
+	at org.scalaide.core.internal.project.scopes.BuildScopeUnit.build(BuildScopeUnit.scala:72)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.$anonfun$build$3(SbtScopesBuildManager.scala:53)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.$anonfun$build$3$adapted(SbtScopesBuildManager.scala:50)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.build(SbtScopesBuildManager.scala:50)
+	at org.scalaide.core.internal.project.ScalaProject.build(ScalaProject.scala:596)
+	at org.scalaide.core.internal.builder.ScalaBuilder.build(ScalaBuilder.scala:111)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2017-12-27 15:11:02.811
+!MESSAGE Error in Scala compiler
+!STACK 0
+java.lang.AssertionError: assertion failed: Modified names for observatory.InteractionTest is empty
+	at scala.Predef$.assert(Predef.scala:219)
+	at sbt.internal.inc.NamesChange.<init>(Changes.scala:54)
+	at sbt.internal.inc.IncrementalNameHashing.sameAPI(IncrementalNameHashing.scala:46)
+	at sbt.internal.inc.IncrementalCommon.sameClass(IncrementalCommon.scala:206)
+	at sbt.internal.inc.IncrementalCommon.$anonfun$changedIncremental$1(IncrementalCommon.scala:188)
+	at scala.collection.TraversableLike.$anonfun$flatMap$1(TraversableLike.scala:241)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:130)
+	at scala.collection.TraversableLike.flatMap(TraversableLike.scala:241)
+	at scala.collection.TraversableLike.flatMap$(TraversableLike.scala:238)
+	at scala.collection.AbstractTraversable.flatMap(Traversable.scala:104)
+	at sbt.internal.inc.IncrementalCommon.changedIncremental(IncrementalCommon.scala:187)
+	at sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:77)
+	at sbt.internal.inc.Incremental$.$anonfun$compile$3(Incremental.scala:84)
+	at sbt.internal.inc.Incremental$.manageClassfiles(Incremental.scala:129)
+	at sbt.internal.inc.Incremental$.compile(Incremental.scala:75)
+	at sbt.internal.inc.IncrementalCompile$.apply(Compile.scala:70)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:309)
+	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:267)
+	at sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:158)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:237)
+	at sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:145)
+	at org.scalaide.core.internal.builder.zinc.CachingCompiler.compile(CachingCompiler.scala:56)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.aggressiveCompile(EclipseSbtBuildManager.scala:219)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.runCompiler(EclipseSbtBuildManager.scala:152)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.update(EclipseSbtBuildManager.scala:134)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.build(EclipseSbtBuildManager.scala:85)
+	at org.scalaide.core.internal.project.scopes.BuildScopeUnit.build(BuildScopeUnit.scala:72)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.$anonfun$build$3(SbtScopesBuildManager.scala:53)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.$anonfun$build$3$adapted(SbtScopesBuildManager.scala:50)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.build(SbtScopesBuildManager.scala:50)
+	at org.scalaide.core.internal.project.ScalaProject.build(ScalaProject.scala:596)
+	at org.scalaide.core.internal.builder.ScalaBuilder.build(ScalaBuilder.scala:111)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2017-12-27 15:11:59.339
+!MESSAGE Error in Scala compiler
+!STACK 0
+java.lang.AssertionError: assertion failed: Modified names for observatory.InteractionTest is empty
+	at scala.Predef$.assert(Predef.scala:219)
+	at sbt.internal.inc.NamesChange.<init>(Changes.scala:54)
+	at sbt.internal.inc.IncrementalNameHashing.sameAPI(IncrementalNameHashing.scala:46)
+	at sbt.internal.inc.IncrementalCommon.sameClass(IncrementalCommon.scala:206)
+	at sbt.internal.inc.IncrementalCommon.$anonfun$changedIncremental$1(IncrementalCommon.scala:188)
+	at scala.collection.TraversableLike.$anonfun$flatMap$1(TraversableLike.scala:241)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:130)
+	at scala.collection.TraversableLike.flatMap(TraversableLike.scala:241)
+	at scala.collection.TraversableLike.flatMap$(TraversableLike.scala:238)
+	at scala.collection.AbstractTraversable.flatMap(Traversable.scala:104)
+	at sbt.internal.inc.IncrementalCommon.changedIncremental(IncrementalCommon.scala:187)
+	at sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:77)
+	at sbt.internal.inc.Incremental$.$anonfun$compile$3(Incremental.scala:84)
+	at sbt.internal.inc.Incremental$.manageClassfiles(Incremental.scala:129)
+	at sbt.internal.inc.Incremental$.compile(Incremental.scala:75)
+	at sbt.internal.inc.IncrementalCompile$.apply(Compile.scala:70)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:309)
+	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:267)
+	at sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:158)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:237)
+	at sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:145)
+	at org.scalaide.core.internal.builder.zinc.CachingCompiler.compile(CachingCompiler.scala:56)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.aggressiveCompile(EclipseSbtBuildManager.scala:219)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.runCompiler(EclipseSbtBuildManager.scala:152)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.update(EclipseSbtBuildManager.scala:134)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.build(EclipseSbtBuildManager.scala:85)
+	at org.scalaide.core.internal.project.scopes.BuildScopeUnit.build(BuildScopeUnit.scala:72)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.$anonfun$build$3(SbtScopesBuildManager.scala:53)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.$anonfun$build$3$adapted(SbtScopesBuildManager.scala:50)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.build(SbtScopesBuildManager.scala:50)
+	at org.scalaide.core.internal.project.ScalaProject.build(ScalaProject.scala:596)
+	at org.scalaide.core.internal.builder.ScalaBuilder.build(ScalaBuilder.scala:111)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2017-12-27 15:12:58.261
+!MESSAGE Error in Scala compiler
+!STACK 0
+java.lang.AssertionError: assertion failed: Modified names for observatory.InteractionTest is empty
+	at scala.Predef$.assert(Predef.scala:219)
+	at sbt.internal.inc.NamesChange.<init>(Changes.scala:54)
+	at sbt.internal.inc.IncrementalNameHashing.sameAPI(IncrementalNameHashing.scala:46)
+	at sbt.internal.inc.IncrementalCommon.sameClass(IncrementalCommon.scala:206)
+	at sbt.internal.inc.IncrementalCommon.$anonfun$changedIncremental$1(IncrementalCommon.scala:188)
+	at scala.collection.TraversableLike.$anonfun$flatMap$1(TraversableLike.scala:241)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:130)
+	at scala.collection.TraversableLike.flatMap(TraversableLike.scala:241)
+	at scala.collection.TraversableLike.flatMap$(TraversableLike.scala:238)
+	at scala.collection.AbstractTraversable.flatMap(Traversable.scala:104)
+	at sbt.internal.inc.IncrementalCommon.changedIncremental(IncrementalCommon.scala:187)
+	at sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:77)
+	at sbt.internal.inc.Incremental$.$anonfun$compile$3(Incremental.scala:84)
+	at sbt.internal.inc.Incremental$.manageClassfiles(Incremental.scala:129)
+	at sbt.internal.inc.Incremental$.compile(Incremental.scala:75)
+	at sbt.internal.inc.IncrementalCompile$.apply(Compile.scala:70)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:309)
+	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:267)
+	at sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:158)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:237)
+	at sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:145)
+	at org.scalaide.core.internal.builder.zinc.CachingCompiler.compile(CachingCompiler.scala:56)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.aggressiveCompile(EclipseSbtBuildManager.scala:219)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.runCompiler(EclipseSbtBuildManager.scala:152)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.update(EclipseSbtBuildManager.scala:134)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.build(EclipseSbtBuildManager.scala:85)
+	at org.scalaide.core.internal.project.scopes.BuildScopeUnit.build(BuildScopeUnit.scala:72)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.$anonfun$build$3(SbtScopesBuildManager.scala:53)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.$anonfun$build$3$adapted(SbtScopesBuildManager.scala:50)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.build(SbtScopesBuildManager.scala:50)
+	at org.scalaide.core.internal.project.ScalaProject.build(ScalaProject.scala:596)
+	at org.scalaide.core.internal.builder.ScalaBuilder.build(ScalaBuilder.scala:111)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2017-12-27 15:21:31.506
+!MESSAGE Error in Scala compiler
+!STACK 0
+java.lang.AssertionError: assertion failed: Modified names for observatory.InteractionTest is empty
+	at scala.Predef$.assert(Predef.scala:219)
+	at sbt.internal.inc.NamesChange.<init>(Changes.scala:54)
+	at sbt.internal.inc.IncrementalNameHashing.sameAPI(IncrementalNameHashing.scala:46)
+	at sbt.internal.inc.IncrementalCommon.sameClass(IncrementalCommon.scala:206)
+	at sbt.internal.inc.IncrementalCommon.$anonfun$changedIncremental$1(IncrementalCommon.scala:188)
+	at scala.collection.TraversableLike.$anonfun$flatMap$1(TraversableLike.scala:241)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:130)
+	at scala.collection.TraversableLike.flatMap(TraversableLike.scala:241)
+	at scala.collection.TraversableLike.flatMap$(TraversableLike.scala:238)
+	at scala.collection.AbstractTraversable.flatMap(Traversable.scala:104)
+	at sbt.internal.inc.IncrementalCommon.changedIncremental(IncrementalCommon.scala:187)
+	at sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:77)
+	at sbt.internal.inc.Incremental$.$anonfun$compile$3(Incremental.scala:84)
+	at sbt.internal.inc.Incremental$.manageClassfiles(Incremental.scala:129)
+	at sbt.internal.inc.Incremental$.compile(Incremental.scala:75)
+	at sbt.internal.inc.IncrementalCompile$.apply(Compile.scala:70)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:309)
+	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:267)
+	at sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:158)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:237)
+	at sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:145)
+	at org.scalaide.core.internal.builder.zinc.CachingCompiler.compile(CachingCompiler.scala:56)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.aggressiveCompile(EclipseSbtBuildManager.scala:219)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.runCompiler(EclipseSbtBuildManager.scala:152)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.update(EclipseSbtBuildManager.scala:134)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.build(EclipseSbtBuildManager.scala:85)
+	at org.scalaide.core.internal.project.scopes.BuildScopeUnit.build(BuildScopeUnit.scala:72)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.$anonfun$build$3(SbtScopesBuildManager.scala:53)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.$anonfun$build$3$adapted(SbtScopesBuildManager.scala:50)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.build(SbtScopesBuildManager.scala:50)
+	at org.scalaide.core.internal.project.ScalaProject.build(ScalaProject.scala:596)
+	at org.scalaide.core.internal.builder.ScalaBuilder.build(ScalaBuilder.scala:111)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)

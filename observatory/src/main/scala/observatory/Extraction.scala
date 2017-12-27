@@ -1,67 +1,41 @@
 package observatory
 
+import java.nio.file.Paths
 import java.time.LocalDate
 
-import org.apache.log4j.{Level, Logger}
-import org.apache.spark.sql.functions.{udf, _}
-import org.apache.spark.sql.{DataFrame, Dataset, SparkSession}
+import org.apache.spark.sql.SparkSession
+import org.apache.spark.sql.types.{DoubleType, StringType, StructField, StructType}
+
+import scala.reflect.ClassTag
 
 /**
   * 1st milestone: data extraction
   */
 object Extraction {
-  
-  private lazy val spark = SparkSession.builder.master("local[4]").getOrCreate()
-  private lazy val combinedId = udf((stn: String, wban: String) => (stn, wban))
 
-  /** This method returns all the temperature records converted to Celsius along with their date and location
+  import org.apache.log4j.{Level, Logger}
+  Logger.getLogger("org.apache.spark").setLevel(Level.WARN)
+
+  val spark: SparkSession =
+    SparkSession
+      .builder()
+      .appName("observatory")
+      .config("spark.master", "local")
+      .getOrCreate()
+
+  /**
     * @param year             Year number
     * @param stationsFile     Path of the stations resource file to use (e.g. "/stations.csv")
     * @param temperaturesFile Path of the temperatures resource file to use (e.g. "/1975.csv")
     * @return A sequence containing triplets (date, location, temperature)
     */
   def locateTemperatures(year: Year, stationsFile: String, temperaturesFile: String): Iterable[(LocalDate, Location, Temperature)] = {
-    val stationsDF = spark.read.csv(Extraction.getClass.getResource(stationsFile).getPath)
-    val temperatureDF = spark.read.csv(Extraction.getClass.getResource(temperaturesFile).getPath)
-    
-    locateTemperatures(year, stationsDF, temperatureDF)
-  }
-  
-  /**
-   * @param year             Year number
-   * @param stations		     DF read from stations.csv
-   * @param temperature		   DF read from temperatures resource file
-   * @return A sequence containing triplets (date, location, temperature)
-   */
-  def locateTemperatures(year: Year, stations: DataFrame, temperature: DataFrame): Iterable[(LocalDate, Location, Temperature)] = {
-    
-  }
-  
-  def createLocalTemperatures(year: Year, stationsDF: DataFrame, temperatureDF: DataFrame): Dataset[LocalTemperature] = {
-    
-    val stations_ = stationsDF
-      .toDF("stn", "wban", "lat", "long")
-      .na.fill("", Seq("stn", "wban"))
-      .withColumn("id", combinedId(col("stn"), col("wban")))
-    
-    val temperature_ = temperatureDF
-      .toDF("stn", "wban", "month", "day", "temp")
-      .na.fill("", Seq("stn", "wban"))
-      .withColumn("id", combinedId(col("stn"), col("wban")))
-      
-    val joined = temperature_.join(stations_, "id")
-    
-    joined
-      .select("lat", "long", "month", "day", "temp")
-      .na.drop()
-      .map{row => LocalTemperature(
-          year,
-          Integer.parseInt(row.getAs[String]("month")),
-          Integer.parseInt(row.getAs[String]("day")),
-          Double.parseDouble(row.getAs[String]("lat")),
-          Double.parseDouble(row.getAs[String]("long")),
-          toCelsius(Double.parseDouble(row.getAs[String]("temp")))
-          )}
+
+    val resp = readTemperatures(temperaturesFile).join(readStations(stationsFile))
+      .map { r =>
+        (LocalDate.of(year, r._2._1.month, r._2._1.day), r._2._2.location, (r._2._1.temp - 32)/1.8)
+      }
+    resp.collect()
   }
 
   /**
@@ -69,25 +43,70 @@ object Extraction {
     * @return A sequence containing, for each location, the average temperature over the year.
     */
   def locationYearlyAverageRecords(records: Iterable[(LocalDate, Location, Temperature)]): Iterable[(Location, Temperature)] = {
-    ???
+    records.groupBy(loc => loc._2)
+      .map {
+        case (loc, temp) =>
+          (loc,
+            (temp
+              .map(m => m._3).sum / temp.size)
+          )
+      }
   }
-  
-  private lazy val bd32 = BigDecimal(32)
-  private lazy val bd1dot8 = BigDecimal(1.8)
-  
-  def toCelsius(fahrenheit: Double): Double ={
-    ((BigDecimal(fahrenheit).setScale(10, BigDecimal.RoundingMode.HALF_EVEN) - bd32) / bd1dot8)
-      .setScale(4, BigDecimal.RoundingMode.HALF_EVEN)
-      .rounded
-      .toDouble
+
+  def read[T:ClassTag](resource: String, f: Array[String] => T)= {
+    val rdd = spark.sparkContext.textFile(fsPath(resource))
+    rdd.map(line => {
+      val arr =  line.split(",", -1)
+      f(arr)
+    })
   }
-  
-  case class ParseOp[T](op: String => T)
-  implicit val popDouble = ParseOp[Double](_.toDouble)
-  implicit val popInt = ParseOp[Int](_.toInt)
-  // etc.
-  def parse[T: ParseOp](s: String) = try { Some(implicitly[ParseOp[T]].op(s)) } 
-                                   catch {case _ => None}
+
+  def readStations(resource: String) = {
+    read[Station](resource, composeStation).filter(s => s.location != Location(9999.9,9999.9))
+      .map(station => ((station.stn, station.wban), station))
+  }
+
+  def readTemperatures(resource: String) = {
+    read[TemperatureRow](resource, composeTemperature).filter(t => t.temp != 9999.9)
+      .map(temp => ((temp.stn, temp.wban), temp))
+  }
+
+  def composeStation(arr: Array[String]): Station = {
+    Station(
+      stn = arr(0),
+      wban = arr(1),
+      location = if(arr(2) != "" || arr(3) != "")
+        Location(arr(2).toDouble, arr(3).toDouble) else Location(9999.9,9999.9)
+    )
+  }
+
+  def composeTemperature(arr: Array[String]): TemperatureRow = {
+    TemperatureRow(
+      stn = arr(0),
+      wban = arr(1),
+      month = arr(2).toInt,
+      day = arr(3).toInt,
+      temp = if (arr(4) != "") arr(4).toDouble else 9999.9
+    )
+  }
 
 
+
+  def fsPath(resource: String): String = {
+    val path = Paths.get(
+      getClass.getResource(resource).toURI
+    ).toString
+    path
+  }
+
+
+  def stationSchema(): StructType =
+    StructType(
+      List(
+        StructField("STN", StringType, nullable = true),
+        StructField("WBAN", StringType, nullable = true),
+        StructField("LAT", DoubleType, nullable = true),
+        StructField("LON", DoubleType, nullable = true)
+      )
+    )
 }

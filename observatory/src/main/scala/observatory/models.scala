@@ -1,11 +1,21 @@
 package observatory
 
+import java.net.URI
+import com.sksamuel.scrimage.Pixel
+import scala.math._
+
 /**
   * Introduced in Week 1. Represents a location on the globe.
   * @param lat Degrees of latitude, -90 ≤ lat ≤ 90
   * @param lon Degrees of longitude, -180 ≤ lon ≤ 180
   */
-case class Location(lat: Double, lon: Double)
+case class Location(lat: Double, lon: Double){
+  lazy val point: Point = Point(toRadians(lat), toRadians(lon))
+}
+
+case class Point(lat: Double, lon: Double) {
+  lazy val location: Location = Location(toDegrees(lat), toDegrees(lon))
+}
 
 /**
   * Introduced in Week 3. Represents a tiled web map tile.
@@ -15,7 +25,14 @@ case class Location(lat: Double, lon: Double)
   * @param y Y coordinate of the tile
   * @param zoom Zoom level, 0 ≤ zoom ≤ 19
   */
-case class Tile(x: Int, y: Int, zoom: Int)
+case class Tile(x: Double, y: Double, zoom: Int){
+  def toLocation = {
+    val lat = toDegrees(atan(sinh(Pi * (1.0 - 2.0 * y / (1 << zoom)))))
+    val lon = x / (1 << zoom) * 360.0 - 180.0
+    Location(lat, lon)
+  }
+  def toURI = new URI("http://tile.openstreetmap.org/"+zoom+"/"+x+"/"+y+".png")
+}
 
 /**
   * Introduced in Week 4. Represents a point on a grid composed of
@@ -23,7 +40,9 @@ case class Tile(x: Int, y: Int, zoom: Int)
   * @param lat Circle of latitude in degrees, -89 ≤ lat ≤ 90
   * @param lon Line of longitude in degrees, -180 ≤ lon ≤ 179
   */
-case class GridLocation(lat: Int, lon: Int)
+case class GridLocation(lat: Int, lon: Int){
+  def location = Location(lat, lon)
+}
 
 /**
   * Introduced in Week 5. Represents a point inside of a grid cell.
@@ -38,6 +57,9 @@ case class CellPoint(x: Double, y: Double)
   * @param green Level of green, 0 ≤ green ≤ 255
   * @param blue Level of blue, 0 ≤ blue ≤ 255
   */
-case class Color(red: Int, green: Int, blue: Int)
+case class Color(red: Int, green: Int, blue: Int){
+  def toPixel(alpha:Int = 255): Pixel = Pixel.apply(red, green, blue, alpha)
+}
 
-case class LocalTemperature(year: Int, month: Int, day: Int, lat: Double, long: Double, temp: Double)
+case class Station(stn: String, wban: String, location: Location) extends Serializable
+case class TemperatureRow(stn: String, wban: String, month: Int, day: Int, temp: Double )

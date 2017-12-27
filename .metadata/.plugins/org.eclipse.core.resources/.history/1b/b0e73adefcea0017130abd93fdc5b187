@@ -1,0 +1,64 @@
+package observatory
+
+import com.sksamuel.scrimage.{Image, Pixel}
+
+/**
+  * 2nd milestone: basic visualization
+  */
+object Visualization {
+
+  /**
+    * @param temperatures Known temperatures: pairs containing a location and the temperature at this location
+    * @param location Location where to predict the temperature
+    * @return The predicted temperature at `location`
+    */
+  def predictTemperature(temperatures: Iterable[(Location, Temperature)], location: Location): Temperature = {
+    val targetLat = location.lat
+    val targetLon = location.lon
+    
+    //Return distance(km) from other location to the given location
+    def getDistTo(other: Location): Double = {
+      val rad = math.Pi/180.0
+      6371*math.acos(
+              math.sin(targetLat*rad)*math.sin(other.lat*rad) 
+              + math.cos(targetLat*rad)*math.cos(other.lat*rad)*math.cos((targetLon - other.lon)*rad)
+           )
+    }
+    
+    def weightedSum(power: Double, distTemp: Iterable[(Double, Double)]): Double = {
+      //(Distance, Temperature) => (InverseDistancePower, WeightedTemperature)
+      val weightedPair = distTemp.map(pair => (1.0/math.pow(pair._1, power), pair._2/math.pow(pair._1, power)))
+      val total = weightedPair.foldLeft((0.0,0.0))((ws, pair) => (ws._1+ pair._1, ws._2 + pair._2))
+      
+      total._2/total._1
+    }
+    
+    // (Location, Temperature) => (Distance, Temperature)
+    val distTemp = temperatures.map(pair => (getDistTo(pair._1), pair._2))
+    
+    distTemp.find(_._1 < 1.0) match{
+      case Some((_, temp)) => temp
+      case None => weightedSum(3.0, distTemp)
+    }
+  }
+
+  /**
+    * @param points Pairs containing a value and its associated color
+    * @param value The value to interpolate
+    * @return The color that corresponds to `value`, according to the color scale defined by `points`
+    */
+  def interpolateColor(points: Iterable[(Temperature, Color)], value: Temperature): Color = {
+    ???
+  }
+
+  /**
+    * @param temperatures Known temperatures
+    * @param colors Color scale
+    * @return A 360×180 image where each pixel shows the predicted temperature at its location
+    */
+  def visualize(temperatures: Iterable[(Location, Temperature)], colors: Iterable[(Temperature, Color)]): Image = {
+    ???
+  }
+
+}
+

@@ -1,18 +1,19 @@
 package observatory
 
 import com.sksamuel.scrimage.{Image, Pixel}
+import observatory.Visualization.{Visualizer, interpolateColor, predictTemperature}
 
 /**
   * 3rd milestone: interactive visualization
   */
 object Interaction {
 
-  /**
-    * @param tile Tile coordinates
+   /**
+    * @param theTile Tile coordinates
     * @return The latitude and longitude of the top-left corner of the tile, as per http://wiki.openstreetmap.org/wiki/Slippy_map_tilenames
     */
-  def tileLocation(tile: Tile): Location = {
-    ???
+  def tileLocation(theTile: Tile): Location = {
+    theTile.toLocation
   }
 
   /**
@@ -22,7 +23,50 @@ object Interaction {
     * @return A 256×256 image showing the contents of the given tile
     */
   def tile(temperatures: Iterable[(Location, Temperature)], colors: Iterable[(Temperature, Color)], tile: Tile): Image = {
-    ???
+    val visualizer = new Milestone3Visualizer
+
+    visualizer.visualize(temperatures, colors, tile)
+  }
+
+  class Milestone3Visualizer extends Visualizer {
+    override val alpha: Int = 127
+    override val width: Int = 256
+    override val height: Int = 256
+
+
+    def visualize(temperatures: Iterable[(Location, Double)],
+                           colors: Iterable[(Double, Color)],
+                           tile: Tile): Image = {
+      lazy val temps = temperatures.toList.sortBy(t => (t._1.lat, t._1.lon))
+      val pixels: Array[Pixel] = buildPixelArray(temps, colors, tile)
+      Image.apply(width, height, pixels)
+    }
+
+
+    def buildPixelArray(temperatures: Iterable[(Location, Double)],
+                                 colors: Iterable[(Double, Color)],
+                                 tile: Tile): Array[Pixel] = {
+      (0 until width * height).par.map {
+        pos => {
+          toPixel(interpolateColor(
+            colors,
+            predictTemperature(temperatures, indexToTileLocation(width, height, pos, tile))
+          ))
+        }
+      }.toArray
+    }
+
+    def indexToTileLocation(imageWidth: Int,
+                            imageHeight: Int,
+                            index: Int,
+                            tile: Tile): Location = {
+
+
+      val xPos = (index % imageWidth).toDouble / imageWidth + tile.x
+      val yPos = (index / imageHeight).toDouble / imageHeight + tile.y
+
+      Tile(xPos, yPos, tile.zoom).toLocation
+    }
   }
 
   /**
@@ -36,7 +80,14 @@ object Interaction {
     yearlyData: Iterable[(Year, Data)],
     generateImage: (Year, Tile, Data) => Unit
   ): Unit = {
-    ???
+    for{
+      (year, data) <- yearlyData
+      zoom <- 0 to 3
+      x <- 0 until 1 << zoom
+      y <- 0 until 1 << zoom
+    } {
+      generateImage(year, Tile.apply(x, y, zoom), data)
+    }
   }
 
 }
